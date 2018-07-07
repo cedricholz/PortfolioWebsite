@@ -1,0 +1,19 @@
+.Skills{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+    width: 60%;
+    margin: auto;
+}
+
+.Skill{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.Technologies{
+    padding-top: 30px;
+}

@@ -1,0 +1,39 @@
+
+.Name {
+    color: white;
+    font-size: 24px;
+}
+
+.NavigationBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.24);
+
+}
+
+.NaviationItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.NavigationButtons {
+    padding-left: 15px;
+    color: #183D6E;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.AllButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

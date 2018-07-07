@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.App {
+    font-family: 'Lato';
+}
+
+.header {
+    background-image: url("./images/bannerbg.png");
+    min-height: 731px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Android {
+    color: #A4C639;
+    display: inline-block;
+}
+
+.Python {
+    color: #366E9D;
+    display: inline-block;
+}
+
+.C{
+    color: #68227B;
+    display: inline-block;
+}
+
+.Java{
+    color: #F8981D;
+    display: inline-block;
+}

@@ -1,0 +1,32 @@
+.ProjectImage {
+    height: auto;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5)
+}
+
+
+.ProjectImage:hover {
+    opacity:.9;
+}
+
+.ProjectTile{
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.ImageName {
+    font-size: 1.1em;
+    color: #366E9D;
+    width: 300px;
+    text-align: center;
+
+}
+
+.Projects {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+    width: 70%;
+    margin: auto;
+}

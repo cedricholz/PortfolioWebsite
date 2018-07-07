@@ -1,0 +1,24 @@
+.header-section {
+    padding-top: 20px;
+
+}
+
+.header-section span{
+    background: black;
+    height:1px;
+    width:20%;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.header-section h2{
+    font-weight: 300;
+    margin-top: 1em;
+    margin: 0;
+    padding: .5em 0 1em 0;
+    text-align: center;
+    font-size: 2em;
+    color:	black
+}

@@ -1,0 +1,16 @@
+.AndroidImage {
+    height: auto;
+    width: 300px;
+    padding: 10px;
+}
+
+.AllAndroidImages {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.ImageTextContainer {
+    width: 300px;
+    height:auto;
+}
