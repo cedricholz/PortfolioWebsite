@@ -6,13 +6,20 @@ body {
 
 h1 {
     font-size: 1.2em;
-    color: #2F4F4F;
+    /*color: #2F4F4F;*/
+    color:white;
 }
 
 h2 {
     font-size: 1.8em;
-    color: #2F4F4F;
+    /*color: #2F4F4F;*/
+    /*color: #A5A49E;*/
+    color:white;
     text-decoration: none;
+}
+
+h3{
+    color: #B0BEC5;
 }
 
 .CenterText {

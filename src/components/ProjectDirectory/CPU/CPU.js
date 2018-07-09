@@ -17,7 +17,7 @@ export default class CPU extends React.Component {
             <div className="DashClass">
 
                 <ProjectBackground projectName={"MIPS Assembler, Linker, and CPU"}
-                                   backgroundColor={'linear-gradient(to top right, #000428, #004e92)'}/>
+                                   backgroundColor={'linear-gradient(to top right, #000428, #004e92)'} languages={['C','Mips']}/>
                 <div className="TextBlock">
 
                     <h2>A computer built from the ground up using Logicism for the circuitry design and C for the

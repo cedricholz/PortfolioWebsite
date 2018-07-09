@@ -23,7 +23,7 @@ export default class TimeCapsule extends React.Component {
             <div className="DashClass">
 
                 <ProjectBackground projectName={"Time Capsule"}
-                                   backgroundColor={'linear-gradient(to top right, #FF512F, #F09819)'}/>
+                                   backgroundColor={'linear-gradient(to top right, #FF512F, #F09819)'} languages={['Android']}/>
                 <div className="TextBlock">
                     <h2>An app that allows users to digitally GeoCache memories and information as comments and photos,
                         stored privately or shared with the

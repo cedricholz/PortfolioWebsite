@@ -16,7 +16,7 @@ export default class CryptoTrader extends React.Component {
             <div className="CryptoTrader">
 
                 <ProjectBackground projectName={"Crypto Trading Algorithm and Reddit Scraper / Data Miner"}
-                                   backgroundColor={'linear-gradient(to top right,#ad5389, #3c1053)'}/>
+                                   backgroundColor={'linear-gradient(to top right,#ad5389, #3c1053)'} languages={['Python']}/>
                 <div className="TextBlock">
                     <h2>A series of strategies coded in Python to buy and sell Cryptocurrencies</h2>
                     <h3>We first began with a basic strategy to construct the Trader framework with functions for

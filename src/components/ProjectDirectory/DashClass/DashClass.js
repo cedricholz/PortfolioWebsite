@@ -13,7 +13,7 @@ export default class DashClass extends React.Component {
             <div className="DashClass">
 
                 <ProjectBackground projectName={"Dash Class"}
-                                   backgroundColor={'linear-gradient(to top right,#34e89e, #0f3443)'}/>
+                                   backgroundColor={'linear-gradient(to top right,#34e89e, #0f3443)'} languages={['React.js']}/>
                 <div className="TextBlock">
                     <h2>A student professor dashboard to be used in class to keep students engaged and the
                         professor more effective</h2>

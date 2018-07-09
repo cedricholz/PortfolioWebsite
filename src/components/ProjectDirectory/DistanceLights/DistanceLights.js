@@ -17,7 +17,7 @@ export default class DistanceLights extends React.Component {
             <div className="DistanceLights">
 
                 <ProjectBackground projectName={"Raspberry Pi WIFI Distance Lights"}
-                                   backgroundColor={'linear-gradient(to top right, #00b09b, #96c93d)'}/>
+                                   backgroundColor={'linear-gradient(to top right, #00b09b, #96c93d)'} languages={['Python']}/>
                 <div className="TextBlock">
 
                     <h2>

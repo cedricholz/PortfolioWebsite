@@ -10,41 +10,52 @@ export default class Projects extends React.Component {
                 <SectionHeader title={"PROJECTS"}/>
                 <div className="Projects">
 
+                    <ProjectTile imageName={'berkeley.png'}
+                                 projectName={'Time Capsule [Android]'} url={'/timecapsule'}
+                                 languages={['Android']}/>
+
+
                     <ProjectTile imageName={'cryptocurrencytrader.png'}
-                                 projectName={'Bittrex Cryptocurrency Trading Algorithm with Reddit Scraper / Data Miner [Python]'}
+                                 projectName={'Bittrex Cryptocurrency Trading Algorithm with Reddit Scraper / Data Miner'}
                                  url={'/cryptotrader'}
+                                 languages={['Python']}
                     />
 
-                    <ProjectTile imageName={'distancelightsthumb.png'}
-                                 projectName={'WIFI Distance Lights [Python] [Raspberry Pi]'}
-                                 url={'/distancelights'}/>
+                    <ProjectTile imageName={'dashthumb.png'} projectName={'Dash Class'} url={'/dashclass'}
+                                 languages={['React']}/>
 
-                    <ProjectTile imageName={'dashthumb.png'} projectName={'Dash Class [React.js]'} url={'/dashclass'}/>
-
-                    <ProjectTile imageName={'berkeley.png'}
-                                 projectName={'Time Capsule [Android]'} url={'/timecapsule'}/>
-
-                    <ProjectTile imageName={'mcafeebot.png'}
-                                 projectName={'McAfee Twitter Cryptocurrency Bot [Python]'} url={'/mcafeebot'}/>
 
                     <ProjectTile imageName={'Portfolio.png'}
-                                 projectName={'Holdings: An Automated Cryptocurrency Portfolio App [React-Native]'}
-                                 url={'/holdings'}/>
+                                 projectName={'Holdings: An Automated Cryptocurrency Portfolio App'}
+                                 url={'/holdings'}
+                                 languages={['React-Native']}/>
+
+                    <ProjectTile imageName={'mcafeebot.png'}
+                                 projectName={'McAfee Twitter Cryptocurrency Bot'} url={'/mcafeebot'}
+                                 languages={['Python']}/>
+
+
+                    <ProjectTile
+                        languages={['Python', 'pi']}
+                        imageName={'distancelightsthumb.png'}
+                        projectName={'WIFI Distance Lights'}
+                        url={'/distancelights'}/>
 
                     <ProjectTile imageName={'canlauncher.png'}
-                                 projectName={'Can Launching Mini Fridge [Android] [Arduino]'} url={'/canlauncher'}/>
+                                 projectName={'Can Launching Mini Fridge'} url={'/canlauncher'}
+                                 languages={['Android', 'Arduino']}/>
 
-                    <ProjectTile imageName={'bearmapsthumb.png'} projectName={'Bear Maps [Java]'}
-                                 url={'/bearmaps'}/>
+                    <ProjectTile imageName={'bearmapsthumb.png'} projectName={'Bear Maps'}
+                                 url={'/bearmaps'} languages={['Java']}/>
 
-                    <ProjectTile imageName={'cputhumb.png'} projectName={'MIPS Assembler, Linker, and CPU [C] [MIPS]'}
-                                 url={'/cpu'}/>
+                    <ProjectTile imageName={'cputhumb.png'} projectName={'MIPS Assembler, Linker, and CPU'}
+                                 url={'/cpu'} languages={['C', 'MIPS']}/>
 
-                    <ProjectTile imageName={'towerdefense.png'} projectName={'Tower Defense Game [Python]'}
-                                 url={'/towerdefense'}/>
+                    <ProjectTile imageName={'towerdefense.png'} projectName={'Tower Defense Game'}
+                                 url={'/towerdefense'} languages={['Python']}/>
 
-                    <ProjectTile imageName={'sqlframework.png'} projectName={'SQL Framework [Java]'}
-                                 url={'/sqlframework'}/>
+                    <ProjectTile imageName={'sqlframework.png'} projectName={'SQL Framework'}
+                                 url={'/sqlframework'} languages={['Java']}/>
                 </div>
             </div>
         )

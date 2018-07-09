@@ -1,6 +1,6 @@
 import React from 'react';
 import "./githubsharestyles.css"
-import github from "../../images/blackgithub.png"
+import github from "../../images/largegithub.png"
 
 export default class GithubShare extends React.Component {
 

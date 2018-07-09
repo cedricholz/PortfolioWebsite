@@ -13,7 +13,7 @@ import SQLFramework from "./components/ProjectDirectory/SQLFramework/SQLFramewor
 import DistanceLights from "./components/ProjectDirectory/DistanceLights/DistanceLights"
 import TimeCapsule from "./components/ProjectDirectory/TimeCapsule/TimeCapsule"
 
-import {HashRouter, Router} from 'react-router-dom'
+import {HashRouter, BrowserRouter, Router} from 'react-router-dom'
 import {Link, Route, Switch} from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import McAfee from "./components/ProjectDirectory/McAfee/McAfee";
@@ -57,8 +57,8 @@ const Project = (projectName) => {
 class App extends Component {
     render() {
         return (
-            <HashRouter>
-                <div>
+            <BrowserRouter>
+                <div className="App">
                     <Route exact={true} path="/" component={Home}/>
                     <ScrollToTop>
                         <Route path="/cryptotrader" component={() => Project('Crypto')}/>
@@ -75,7 +75,7 @@ class App extends Component {
                     <Route path="/sqlframework" component={() => Project('SqlFramework')}/>
 
                 </div>
-            </HashRouter>
+            </BrowserRouter>
         );
     }
 }

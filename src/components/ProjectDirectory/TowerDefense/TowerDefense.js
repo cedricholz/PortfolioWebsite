@@ -27,7 +27,7 @@ export default class TowerDefense extends React.Component {
             <div className="DashClass">
 
                 <ProjectBackground projectName={"Python Tower Defense Game"}
-                                   backgroundColor={'linear-gradient(to top right, #F09819, #EDDE5D)'}/>
+                                   backgroundColor={'linear-gradient(to top right, #F09819, #EDDE5D)'} languages={['Python']}/>
                 <div className="TextBlock">
 
                     <h2>A graphical tower defense game similar to Plants Vs Zombies, written in Python demonstrating

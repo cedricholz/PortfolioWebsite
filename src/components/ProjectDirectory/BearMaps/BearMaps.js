@@ -18,7 +18,8 @@ export default class BearMaps extends React.Component {
             <div className="DashClass">
 
                 <ProjectBackground projectName={"Bear Maps"}
-                                   backgroundColor={'linear-gradient(to top right, #E44D26, #F16529)'}/>
+                                   backgroundColor={'linear-gradient(to top right, #E44D26, #F16529)'}
+                                   languages={['Java']}/>
                 <div className="TextBlock">
 
                     <h2><b>Google Maps for Berkeley</b>

@@ -17,7 +17,7 @@ export default class Holdings extends React.Component {
             <div className="DashClass">
 
                 <ProjectBackground projectName={"Holdings: An Automated Cryptocurrency Portfolio App"}
-                                   backgroundColor={'linear-gradient(to top right, #141E30, #243B55)'}/>
+                                   backgroundColor={'linear-gradient(to top right, #141E30, #243B55)'} languages={['React-Native']}/>
                 <div className="TextBlock">
                     <h2>A React-Native app that takes data straight from a user's Binance, Bittrex, and Kucoin
                         exchange
@@ -72,8 +72,8 @@ export default class Holdings extends React.Component {
                     </h3>
 
 
-                    <a href="https://play.google.com/store/apps/details?id=com.automatedcryptocurrencyportfolio">
-                        <h3>
+                    <a href="https://play.google.com/store/apps/details?id=com.automatedcryptocurrencyportfolio" className="LinkText">
+                        <h3 >
                             Holdings on Google Play</h3>
                     </a>
                     <a href="https://play.google.com/store/apps/details?id=com.automatedcryptocurrencyportfolio">

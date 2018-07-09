@@ -1,40 +1,45 @@
 .Name {
     color: white;
-    font-size: 24px;
+    font-size: 3.3vh;
 }
 
 .Banner {
+    position: relative;
+    width: 30%;
     margin: auto;
-    width: 32%;
     padding-top: 180px;
-
 }
 
 .BannerName {
-    color:#183D6E;
+    /*color:#183D6E;*/
+    color: white;
 }
 
-.BannerInfo{
-    color:#f2f2f2;
-    font-weight:bold;
-    font-size:32px;
+.MyName {
+    background: linear-gradient(135deg, #34b288, #7bc059);
+    padding: .2em;
 }
 
-.BigText{
-    font-size: 32px;
+.BannerInfo {
+    color: #f2f2f2;
+    font-weight: bold;
+    /*font-size: 32px;*/
+    font-size: 4vh;
+}
+
+.BigText {
+    font-size: 4vh;
     padding-top: 15px;
     color: white;
 }
 
-.SmallText{
-
-    font-size: .55em;
+.SmallText {
+    font-size: 2.5vh;
     padding-top: 30px;
     font-weight: 200;
 }
 
-
-.FullStack{
+.FullStack {
     display: inline-block;
-    color: white ;
+    color: white;
 }

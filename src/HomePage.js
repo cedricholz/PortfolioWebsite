@@ -6,50 +6,122 @@ import Experience from "./components/Experience/Experience"
 import Banner from "./components/Banner/Banner"
 import SectionHeader from "./components/SectionHeader/SectionHeader"
 import Projects from "./components/Projects/Projects"
-import github from './images/blackgithub.png';
+import github from './images/github.png';
 import linkedIn from './images/linked.png';
 import RelevantCourses from "./components/RelevantCourses/RelevantCourses";
-import ucberkeleyseal from "./images/ucberkeleyseal.jpg"
+import ucberkeleyseal from "./images/ucberkeleyseal.png"
 import Skills from "./components/Skills/Skills"
 import scrollToComponent from 'react-scroll-to-component';
+import BurgerMenu from 'react-burger-menu';
+import {Fade} from "react-reveal";
 
 
-export default class HomePage extends Component {
-    scrollToComponents = (componentName) => {
-        switch (componentName) {
-            case 'EXPERIENCE':
-                return () => scrollToComponent(this.Experience, {offset: 0, align: 'top', duration: 1500});
-            case 'PROJECTS':
-                return () => scrollToComponent(this.Projects, {offset: 0, align: 'top', duration: 1500});
-            case 'EDUCATION':
-                return () => scrollToComponent(this.Education, {offset: 0, align: 'top', duration: 1500});
-            case 'COURSES':
-                return () => scrollToComponent(this.Courses, {offset: 0, align: 'top', duration: 1500});
-            case 'SKILLS':
-                return () => scrollToComponent(this.Skills, {offset: 0, align: 'top', duration: 1500});
-            case 'CONTACT':
-                return () => scrollToComponent(this.Contact, {offset: 0, align: 'top', duration: 1500});
-        }
-    };
-
-    getScrollFunctions = () => {
-        const componentsToScrollTo = ["EXPERIENCE", "PROJECTS", "EDUCATION", "COURSES", "SKILLS", "CONTACT"];
-        let componentFunctions = [];
-        for (let component of componentsToScrollTo) {
-            componentFunctions.push(this.scrollToComponents(component))
-        }
-        return componentFunctions;
+class MenuWrap extends Component {
+    constructor(props) {
+        super(props);
     }
 
     render() {
-        let scrollFunctions = this.getScrollFunctions();
+        return (
+            <div className={this.props.side}>
+                {this.props.children}
+            </div>
+        );
+    }
+}
+
+export default class HomePage extends Component {
+
+    scrollToComponents = (componentName) => {
+        this.setState({open: false});
+        switch (componentName) {
+            case 'EXPERIENCE':
+                scrollToComponent(this.Experience, {offset: 0, align: 'top', duration: 1500});
+                break;
+            case 'PROJECTS':
+                scrollToComponent(this.Projects, {offset: 0, align: 'top', duration: 1500});
+                break;
+            case 'EDUCATION':
+                scrollToComponent(this.Education, {offset: 0, align: 'top', duration: 1500});
+                break;
+            case 'COURSES':
+                scrollToComponent(this.Courses, {offset: 0, align: 'top', duration: 1500});
+                break;
+            case 'SKILLS':
+                scrollToComponent(this.Skills, {offset: 0, align: 'top', duration: 1500});
+                break;
+            case 'CONTACT':
+                scrollToComponent(this.Contact, {offset: 0, align: 'top', duration: 1500});
+                break;
+        }
+    };
+
+    constructor(props) {
+        super(props);
+        this.state = {open: false}
+    }
+
+    getMenu() {
+        const Menu = BurgerMenu['pushRotate'];
+        const items = [
+            <h2 key="0"><i className="fa fa-fw fa-inbox fa-2x"/><span>Navigation</span></h2>,
+
+            <div className="MenuContainer" onClick={() => this.scrollToComponents("EXPERIENCE")}>
+                <span className="MenuItem">EXPERIENCE</span>
+            </div>,
+            <div className="MenuContainer" onClick={() => this.scrollToComponents("PROJECTS")}>
+                <span className="MenuItem">PROJECTS</span>
+            </div>,
+            <div className="MenuContainer" onClick={() => this.scrollToComponents("EDUCATION")}>
+                <span className="MenuItem">EDUCATION</span>
+            </div>,
+            <div className="MenuContainer" onClick={() => this.scrollToComponents("COURSES")}>
+                <span className="MenuItem">COURSES</span>
+            </div>,
+            <div className="MenuContainer" onClick={() => this.scrollToComponents("SKILLS")}>
+                <span className="MenuItem">SKILLS</span>
+            </div>,
+            <div className="MenuContainer" onClick={() => this.scrollToComponents("CONTACT")}>
+                <span className="MenuItem">CONTACT</span>
+            </div>,
+
+        ];
 
         return (
+            <MenuWrap wait={20} side={'right'}>
+                <Menu isOpen={this.state.open} id={'pushRotate'} pageWrapId={'page-wrap'}
+                      outerContainerId={'outer-container'} right>
+                    {items}
+                </Menu>
+            </MenuWrap>
+        );
+
+    }
+
+    render() {
+
+        return (
+
             <div className="App">
-                <header className="header">
-                    <Navigation scrollFunctions={scrollFunctions}/>
-                    <Banner/>
-                </header>
+
+                <div id="outer-container">
+                    {this.getMenu()}
+                    <main id="page-wrap">
+                        <header className="header">
+                            {/*<video className='Video' autoPlay loop muted>*/}
+                                {/*<source src={CoverVideo} type='video/mp4' />*/}
+                            {/*</video>*/}
+                            <Navigation/>
+                            {/*<Fade up>*/}
+                            <Banner/>
+                            {/*</Fade>*/}
+
+
+                        </header>
+                    </main>
+                </div>
+
+
                 <section ref={(section) => {
                     this.Experience = section;
                 }}>
@@ -64,21 +136,23 @@ export default class HomePage extends Component {
                     <Projects/>
                 </section>
 
-
                 <section ref={(section) => {
                     this.Education = section;
                 }}>
                     <SectionHeader title={"EDUCATION"}/>
                 </section>
 
-                <div className="CenterText">
-                    <a href={"https://www.berkeley.edu/"} target="_blank">
-                        <img src={ucberkeleyseal} className="BerkeleySeal"/>
-                    </a>
+                <Fade up>
+                    <div className="CenterText">
+                        <a href={"https://www.berkeley.edu/"} target="_blank">
+                            <img src={ucberkeleyseal} className="BerkeleySeal"/>
+                        </a>
 
-                    <h2 className="School">University of California, Berkeley</h2>
-                    <div className="ListItem">B.S. Electrical Engineering and Computer Science - December 2018</div>
-                </div>
+                        <h2 className="School">University of California, Berkeley</h2>
+                        <h3 className="ListItem">B.S. Electrical Engineering and Computer Science - December
+                            2018</h3>
+                    </div>
+                </Fade>
 
                 <section ref={(section) => {
                     this.Courses = section;
@@ -116,7 +190,10 @@ export default class HomePage extends Component {
                         </a>
                     </div>
                 </div>
+
+
             </div>
+
         );
     }
 }

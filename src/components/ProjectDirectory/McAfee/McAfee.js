@@ -14,7 +14,7 @@ export default class McAfee extends React.Component {
             <div className="DashClass">
 
                 <ProjectBackground projectName={"McAfee Twitter Cryptocurrency Trading Bot"}
-                                   backgroundColor={'linear-gradient(to top right,#cb2d3e, #ef473a)'}/>
+                                   backgroundColor={'linear-gradient(to top right,#cb2d3e, #ef473a)'} languages={['Python']}/>
                 <div className="TextBlock">
                     <h2><b>A Python bot that buys Cryptocurrencies as soon as John McAfee tweets his coin of the
                         day/week, and sells them minutes later as they reach their >100% peaks</b>

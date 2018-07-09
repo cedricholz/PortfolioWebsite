@@ -1,19 +1,35 @@
 .ProjectBackground {
     color: #f2f2f2;
     height: 400px;
-    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
 
 }
 .ProjectTitle {
     font-weight: bolder;
     font-size: 3.5em;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 .Nav{
     position: absolute;
     width: 100%;
     top:0;
+}
+
+.MovingText{
+    /*position: absolute;*/
+    /*top: 320px;*/
+    /*left: 50%;*/
+    /*color: white;*/
+    /*font-size: 4vh;*/
+}
+
+.TypedText{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
 }

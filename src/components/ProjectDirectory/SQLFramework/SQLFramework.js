@@ -15,7 +15,7 @@ export default class SQLFramework extends React.Component {
             <div className="DashClass">
 
                 <ProjectBackground projectName={"Java SQL Framework"}
-                                   backgroundColor={'linear-gradient(to top right, #396afc, #2948ff)'}/>
+                                   backgroundColor={'linear-gradient(to top right, #396afc, #2948ff)'} languages={['Java']}/>
                 <div className="TextBlock">
                     <h2>A framework to parse and execute SQL-like commands</h2>
 

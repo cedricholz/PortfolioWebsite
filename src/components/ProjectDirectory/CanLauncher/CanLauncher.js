@@ -14,7 +14,8 @@ export default class CanLauncher extends React.Component {
             <div className="DashClass">
 
                 <ProjectBackground projectName={"Can Launching Mini Fridge"}
-                                   backgroundColor={'linear-gradient(to top right, #FF416C, #FF4B2B)'}/>
+                                   backgroundColor={'linear-gradient(to top right, #FF416C, #FF4B2B)'}
+                                   languages={['Android','Arduino']}/>
                 <div className="TextBlock">
                     <h2>A machine that launches high velocity cans from the fridge to you face</h2>
                     <br/>
@@ -48,6 +49,7 @@ export default class CanLauncher extends React.Component {
 
                     <img src={resizedfridge}/>
 
+                    <div className="WhiteText">* Alex helped a little</div>
                 </div>
                 <Projects/>
             </div>

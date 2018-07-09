@@ -1,19 +1,101 @@
-.Skills{
+.Skills {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
 
-    width: 60%;
+    width: 90%;
     margin: auto;
 }
 
-.Skill{
-    padding-left: 50px;
-    padding-right: 50px;
+.Skill {
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
 }
 
-.Technologies{
+.Technologies {
     padding-top: 30px;
+    text-align: center;
+}
+
+.MiscTechnologies {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.SkillImage {
+    height: 70px;
+    padding-top: 30px;
+    width: auto;
+}
+
+.Technology {
+    height: 40px;
+    padding-left: 10px;
+    width: auto;
+}
+
+.ProgressBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.ProgressImage {
+    height: 70px;
+    width: auto;
+    padding-left: 20px;
+}
+
+.FullGraph {
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.YAxis {
+    width: 150px;
+    margin-top: -3%;
+}
+
+.YValue{
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+.BarsGraph {
+
+}
+
+.Bars {
+    text-align: center;
+    margin-top: auto;
+    /*text-align: center;*/
+}
+
+.Bar {
+    display: inline-block;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.BarLine {
+
+    border-style: solid;
+    border-bottom: black;
+}
+
+.BarImage {
+    position: relative;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.AllSkills{
+
 }
