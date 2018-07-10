@@ -37,7 +37,7 @@ export default class Skills extends React.Component {
                 },
 
                 {
-                    Name: "JS",
+                    Name: "Javascript",
                     BarColor: "#F0DB4F",
                     percentage: 70,
                     imageName: 'javascript.png'
@@ -46,19 +46,19 @@ export default class Skills extends React.Component {
                     Name: "HTML",
                     //BarColor: "#E34C25",
                     BarColor: "linear-gradient(to top right, #E44D26, #F16529)",
-                    percentage: 80,
+                    percentage: 70,
                     imageName: 'html.png'
                 },
                 {
                     Name: "CSS",
                     //BarColor: "#33A9DC",
                     BarColor: "linear-gradient(to top right, #2193b0, #6dd5ed)",
-                    percentage: 82,
+                    percentage: 70,
                     imageName: 'css.png'
                 },
                 {
                     Name: "C",
-                   //BarColor: "#65D0B6",
+                    //BarColor: "#65D0B6",
                     BarColor: "linear-gradient(to top right, #11998e, #38ef7d)",
                     percentage: 65,
                     imageName: 'cprog.png'
@@ -74,7 +74,7 @@ export default class Skills extends React.Component {
                     Name: "Linux",
                     //BarColor: "#FCB713",
                     BarColor: "linear-gradient(to top right, #FDC830, #F37335)",
-                    percentage: 70,
+                    percentage: 75,
                     imageName: 'linux.png'
                 },
 
@@ -85,7 +85,6 @@ export default class Skills extends React.Component {
                     percentage: 65,
                     imageName: 'sql.png'
                 },
-
             ]
         ;
 
@@ -93,28 +92,29 @@ export default class Skills extends React.Component {
         return (
             <div className="FullGraph">
 
-                <div className="YAxis">
-                    <h3 className="YValue">Wizard</h3>
-                    <h3 className="YValue">85 Decibel keyboard clacks</h3>
-                    <h3 className="YValue">Comfortable</h3>
-                    <h3 className="YValue">Competent</h3>
-                    <h3 className="YValue">Dog inherits from Animal</h3>
-                    <h3 className="YValue">Saw it once in a dream</h3>
-                </div>
                 <div className="BarsGraph">
-
                     <div className="Bars">
+                        <div className="YAxis">
+                            <h3 className="YValue">Wizard</h3>
+                            <h3 className="YValue">85 Decibel keyboard clacks</h3>
+                            <h3 className="YValue">Comfortable</h3>
+                            <h3 className="YValue">Competent</h3>
+                            <h3 className="YValue">Dog inherits from Animal</h3>
+                            <h3 className="YValue">Saw it once in a dream</h3>
+                        </div>
 
                         {skills.map((skill) =>
                             <div className="Bar">
                                 <img src={require('../../images/' + skill.imageName)} className='BarImage'/>
                                 <div style={{
                                     background: skill.BarColor,
-                                    height: `${skill.percentage / 100 * graphHeightPixels}px`
+                                    height: `${skill.percentage / 900 * graphHeightPixels}vh`, marginBottom: '2vh'
                                 }}/>
-                                <h3 style={{'align-items': 'center'}}>{skill.Name}</h3>
-                            </div>
-                        )
+                                <div className={"SkillText"}>
+                                    <span className="text-overflow-center">{skill.Name}</span>
+
+                                </div>
+                            </div>)
                         }
                     </div>
 

@@ -1,71 +1,33 @@
-.Skills {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-
-    width: 90%;
-    margin: auto;
-}
-
-.Skill {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-}
 
 .Technologies {
-    padding-top: 30px;
-    text-align: center;
-}
-
-.MiscTechnologies {
-    text-align: center;
-    width: 90%;
-    margin: auto;
-}
-
-.SkillImage {
-    height: 70px;
-    padding-top: 30px;
-    width: auto;
+margin-top: 6vh;
+text-align: center;
 }
 
 .Technology {
-    height: 40px;
-    padding-left: 10px;
-    width: auto;
-}
-
-.ProgressBar {
-    display: flex;
-    flex-direction: row;
-}
-
-.ProgressImage {
-    height: 70px;
-    width: auto;
-    padding-left: 20px;
+height: 4.5vh;
+padding-left: 10px;
+width: auto;
 }
 
 .FullGraph {
-
-    width: 80%;
-    margin: auto;
     display: flex;
-    flex-flow: row wrap;
+    align-content: center;
     justify-content: center;
 }
 
 .YAxis {
-    width: 150px;
-    margin-top: -3%;
+    display: inline-block;
+    width: 20vh;
+    margin-left: 2.8vh;
+    margin-right: 7vh;
+    text-align: left;
+    font-size: 2vh;
 }
 
-.YValue{
-    padding-bottom: 5px;
-    padding-top: 5px;
 
+.YValue {
+    margin-bottom: 3.8vh;
 }
 
 .BarsGraph {
@@ -73,29 +35,110 @@
 }
 
 .Bars {
+    text-align:center;
+
+}
+
+.text-overflow-center {
+    margin-left: -100%;
+    margin-right: -100%;
     text-align: center;
-    margin-top: auto;
-    /*text-align: center;*/
+    color: #B0BEC5;
+    font-size: 2.1vh;
 }
 
 .Bar {
     display: inline-block;
-    width: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 5vh;
+    margin-left: 2.8vh;
+    margin-right: 2.8vh;
 }
 
 .BarLine {
 
-    border-style: solid;
-    border-bottom: black;
 }
 
 .BarImage {
-    position: relative;
-    height: 50px;
-    padding-bottom: 10px;
+    height: 5.5vh;
+    margin-bottom: 1.5vh;
 }
-.AllSkills{
+
+.AllSkills {
 
 }
+
+.SkillText{
+
+}
+
+
+/*.Skills {*/
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*margin: auto;*/
+/*}*/
+
+/*.Technologies {*/
+    /*margin-top: 6vh;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.Technology {*/
+    /*height: 40px;*/
+    /*padding-left: 10px;*/
+    /*width: auto;*/
+/*}*/
+
+/*.FullGraph {*/
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*justify-content: center;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.YAxis {*/
+    /*width: 150px;*/
+    /*font-size: 1.95vh;*/
+    /*margin-top: -3%;*/
+/*}*/
+
+/*.YValue {*/
+    /*padding-bottom: .7vh;*/
+    /*padding-top: .7vh;*/
+/*}*/
+
+/*.BarsGraph {*/
+    /*height: 30vh;*/
+/*}*/
+
+/*.Bars {*/
+    /*margin-top: auto;*/
+/*}*/
+
+/*.Bar {*/
+    /*display: inline-block;*/
+    /*width: 4%;*/
+    /*margin-left: 2.8vh;*/
+    /*margin-right: 2.8vh;*/
+/*}*/
+
+/*.BarLine {*/
+
+    /*border-style: solid;*/
+    /*border-bottom: black;*/
+/*}*/
+
+/*.BarImage {*/
+    /*height: 7vh;*/
+    /*padding-bottom: 10px;*/
+/*}*/
+
+/*.AllSkills {*/
+
+/*}*/
+
+/*.SkillText{*/
+
+/*}*/

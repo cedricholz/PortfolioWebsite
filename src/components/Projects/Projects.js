@@ -11,7 +11,7 @@ export default class Projects extends React.Component {
                 <div className="Projects">
 
                     <ProjectTile imageName={'berkeley.png'}
-                                 projectName={'Time Capsule [Android]'} url={'/timecapsule'}
+                                 projectName={'Time Capsule'} url={'/timecapsule'}
                                  languages={['Android']}/>
 
 

@@ -4,8 +4,9 @@
 }
 
 .Banner {
-    position: relative;
-    width: 30%;
+    /*position: relative;*/
+    display: flex;
+    justify-content: center;
     margin: auto;
     padding-top: 180px;
 }
@@ -29,7 +30,7 @@
 
 .BigText {
     font-size: 4vh;
-    padding-top: 15px;
+    padding-top: 3px;
     color: white;
 }
 
@@ -37,6 +38,28 @@
     font-size: 2.5vh;
     padding-top: 30px;
     font-weight: 200;
+}
+
+@media only screen and (max-width: 600px) {
+    .SmallText {
+        text-align: center;
+    }
+
+    .BigText {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: inline-block;
+    }
+
+    .TypedText{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .MyName{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 .FullStack {

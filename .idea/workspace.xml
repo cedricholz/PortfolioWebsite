@@ -1,59 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/components/Skills/skillsstyles.css" line="133" mnemonic="5" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9b3d88d6-1e9b-47c3-8685-d9dc720c77f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Skills/BarGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Skills/Technologies.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.116f2376.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.116f2376.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.db8881f0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.db8881f0.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/ucberkeleyseal.2dd30543.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Banner/bannerstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/bannerstyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Experience/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/Experience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Experience/Scoutible.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/Scoutible.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Experience/TooLow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/TooLow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Experience/experiencestyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/experiencestyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GithubShare/GithubShare.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GithubShare/GithubShare.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/navigationstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/navigationstyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectBackground/ProjectBackground.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBackground/ProjectBackground.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectBackground/projectbackgroundstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBackground/projectbackgroundstyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/BearMaps/BearMaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/BearMaps/BearMaps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/CPU/CPU.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/CPU/CPU.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/CanLauncher/CanLauncher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/CanLauncher/CanLauncher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/CryptoTrader/CryptoTrader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/CryptoTrader/CryptoTrader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/DashClass/DashClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/DashClass/DashClass.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/DistanceLights/DistanceLights.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/DistanceLights/DistanceLights.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/Holdings/Holdings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/Holdings/Holdings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/McAfee/McAfee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/McAfee/McAfee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/SQLFramework/SQLFramework.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/SQLFramework/SQLFramework.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/TimeCapsule/TimeCapsule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/TimeCapsule/TimeCapsule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/TowerDefense/TowerDefense.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/TowerDefense/TowerDefense.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/ProjectTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectTile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/projectsstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/projectsstyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RelevantCourses/RelevantCourses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RelevantCourses/RelevantCourses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RelevantCourses/relevantcoursesstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RelevantCourses/relevantcoursesstyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SectionHeader/SectionHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionHeader/SectionHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SectionHeader/sectionheaderstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionHeader/sectionheaderstyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/BarGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/BarGraph.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/skillsstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/skillsstyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/ucberkeleyseal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,11 +30,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Skills.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Skills.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Skills/Skills.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="194">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Technologies.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Skills/Technologies.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projects.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Projects/Projects.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BarGraph.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Skills/BarGraph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SectionHeader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/SectionHeader/SectionHeader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -82,65 +90,26 @@
       <file leaf-file-name="skillsstyles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Skills/skillsstyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HomePage.js">
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SectionHeader.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SectionHeader/SectionHeader.js">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sectionheaderstyles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SectionHeader/sectionheaderstyles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BarGraph.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Skills/BarGraph.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="114" column="70" selection-start-line="114" selection-start-column="70" selection-end-line="114" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Banner.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Banner/Banner.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -156,36 +125,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>androi</find>
-      <find>firebn</find>
-      <find>android</find>
-      <find>languages</find>
-      <find>python</find>
-      <find>react</find>
-      <find>rasp</find>
-      <find>sql</find>
-      <find>uc berkele</find>
-      <find>toolow</find>
-      <find>wifi</find>
-      <find>fade</find>
-      <find>bann</find>
-      <find>.bars</find>
-      <find>Technologies</find>
-      <find>overflo</find>
-      <find>bars</find>
-      <find>once in a</find>
       <find>in</find>
-      <find>once in a</find>
       <find>what is a va</find>
       <find>wwhat's a</find>
       <find>what</find>
       <find>what's</find>
-      <find>bar</find>
       <find>Bar</find>
       <find>relevant courses</find>
       <find>header-section</find>
-      <find>ReactRevealText</find>
       <find>fad</find>
+      <find>padding</find>
+      <find>@MEDIA</find>
+      <find>BigText</find>
+      <find>SMALL</find>
+      <find>this.state</find>
+      <find>setState</find>
+      <find>%</find>
+      <find>ReactRevealText</find>
+      <find>barsgra</find>
+      <find>bar</find>
+      <find>position</find>
+      <find>skill</find>
+      <find>.h3</find>
+      <find>skills</find>
+      <find>span</find>
+      <find>android</find>
+      <find>h3</find>
+      <find>js</find>
+      <find>yaxis</find>
+      <find>time capsule</find>
+      <find>time capsule</find>
     </findStrings>
     <replaceStrings>
       <replace>to</replace>
@@ -200,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/ProjectDirectory/CanLauncher/canlauncher.css" />
         <option value="$PROJECT_DIR$/src/components/ProjectDirectory/CPU/cpu.css" />
         <option value="$PROJECT_DIR$/src/components/ProjectDirectory/DistanceLights/distancelights.css" />
         <option value="$PROJECT_DIR$/src/components/ProjectDirectory/SQLFramework/sqlframework.css" />
@@ -217,10 +185,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Navigation/navigationstyles.css" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/components/SectionHeader/SectionHeader.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/ProjectDirectory/CanLauncher/BarGraph.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/GithubShare/GithubShare.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectDirectory/BearMaps/BearMaps.js" />
@@ -242,15 +208,18 @@
         <option value="$PROJECT_DIR$/src/components/Experience/experiencestyles.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/Experience/Scoutible.js" />
-        <option value="$PROJECT_DIR$/src/components/Projects/Projects.js" />
         <option value="$PROJECT_DIR$/src/components/Projects/ProjectTile.js" />
+        <option value="$PROJECT_DIR$/src/components/SectionHeader/sectionheaderstyles.css" />
         <option value="$PROJECT_DIR$/src/components/Banner/bannerstyles.css" />
         <option value="$PROJECT_DIR$/src/components/Banner/Banner.js" />
-        <option value="$PROJECT_DIR$/src/components/SectionHeader/sectionheaderstyles.css" />
-        <option value="$PROJECT_DIR$/src/components/Skills/skillsstyles.css" />
         <option value="$PROJECT_DIR$/src/HomePage.js" />
-        <option value="$PROJECT_DIR$/src/components/Skills/BarGraph.js" />
+        <option value="$PROJECT_DIR$/src/components/Skills/Technologies.js" />
         <option value="$PROJECT_DIR$/src/components/Skills/Skills.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/components/SectionHeader/SectionHeader.js" />
+        <option value="$PROJECT_DIR$/src/components/Skills/BarGraph.js" />
+        <option value="$PROJECT_DIR$/src/components/Skills/skillsstyles.css" />
+        <option value="$PROJECT_DIR$/src/components/Projects/Projects.js" />
       </list>
     </option>
   </component>
@@ -271,16 +240,17 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="393" />
-    <option name="y" value="277" />
-    <option name="width" value="1843" />
-    <option name="height" value="1030" />
+    <option name="x" value="315" />
+    <option name="y" value="221" />
+    <option name="width" value="1475" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,7 +294,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,19 +304,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite\src\components\Skills" />
+      <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite\build" />
+      <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite" />
+      <recent name="C:\Users\Cedric\Desktop\Code Projects\cedricholzcom\src\components\ProjectDirectory" />
+      <recent name="C:\Users\Cedric\Desktop\Code Projects\cedricholzcom\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite\src\components\Skills" />
       <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite\public" />
       <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite\build" />
       <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite" />
       <recent name="C:\Users\Cedric\Desktop\Code Projects\cedricholzcom\src\components\ProjectDirectory" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite\build" />
-      <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite" />
-      <recent name="C:\Users\Cedric\Desktop\Code Projects\cedricholzcom\src\components\ProjectDirectory" />
-      <recent name="C:\Users\Cedric\Desktop\Code Projects\cedricholzcom\src\components" />
-      <recent name="C:\Users\Cedric\Desktop\Code Projects\cedricholzcom\src\components\McAfee" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,18 +354,29 @@
       <workItem from="1530548831160" duration="26000" />
       <workItem from="1530987576609" duration="733000" />
       <workItem from="1530988860372" duration="2435000" />
-      <workItem from="1530991480070" duration="68349000" />
+      <workItem from="1530991480070" duration="69134000" />
+      <workItem from="1531155535056" duration="608000" />
+      <workItem from="1531162535498" duration="6000" />
+      <workItem from="1531190860620" duration="9191000" />
     </task>
+    <task id="LOCAL-00001" summary="Gave it a dark theme and added more woosh">
+      <created>1531107759990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531107759990</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125800000" />
+    <option name="totallyTimeSpent" value="136390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2504957" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19960344" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.28023794" side_tool="true" weight="0.15866084" />
@@ -405,7 +385,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33187774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7197621" visible="true" weight="0.22416303" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7197621" visible="true" weight="0.17612809" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -425,10 +405,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Gave it a dark theme and added more woosh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gave it a dark theme and added more woosh" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectDirectory/DistanceLights/distancelights.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ScrollToTop/ScrollToTop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -454,44 +435,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Skills/ProgressBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/css/main.116f2376.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret column="277" selection-start-column="277" selection-end-column="277" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.530e73e8.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret column="249459" selection-start-column="249459" selection-end-column="249459" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Skills/ProgressBar.js" />
+    <entry file="file://$PROJECT_DIR$/build/static/css/main.116f2376.css.map" />
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.530e73e8.js" />
+    <entry file="file://$PROJECT_DIR$/build/.htaccess" />
     <entry file="file://$PROJECT_DIR$/src/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -524,9 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,14 +490,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/ProjectDirectory/BearMaps/bearmaps.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.f742a913.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret column="1197689" selection-start-column="1197689" selection-end-column="1197689" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.f742a913.js.map" />
     <entry file="file://$PROJECT_DIR$/src/components/GithubShare/GithubShare.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -558,30 +498,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RelevantCourses/RelevantCourses.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -648,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectDirectory/CryptoTrader/CryptoTrader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="102" lean-forward="true" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ProjectDirectory/CPU/CPU.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -666,9 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,13 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -721,9 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,61 +631,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Projects/Projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Banner/bannerstyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Skills/skillsstyles.css">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SectionHeader/sectionheaderstyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SectionHeader/SectionHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-202">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HomePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="236">
+          <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectDirectory/CryptoTrader/CryptoTrader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Banner/Banner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="-18">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SectionHeader/sectionheaderstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Skills/Skills.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SectionHeader/SectionHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -797,21 +715,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Skills/BarGraph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="114" column="70" selection-start-line="114" selection-start-column="70" selection-end-line="114" selection-end-column="70" />
+        <state relative-caret-position="329">
+          <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Skills/Skills.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Skills/skillsstyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Skills/Technologies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Projects/Projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>

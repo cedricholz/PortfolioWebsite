@@ -42,24 +42,26 @@ export default class Banner extends React.Component {
                     </div>
                     <div className="TypedText">
                         Software Engineer: &nbsp;
-                            <Typist cursor={{
-                                show: true,
-                                blink: true,
-                                element: '|',
-                                hideWhenDone: true,
-                                hideWhenDoneDelay: 0,
-                            }}>
-                                <span>Front-End</span>
-                                <Typist.Backspace count={9} delay={1000}/>
-                                <span>Back-End</span>
-                                <Typist.Backspace count={8} delay={1000}/>
-                                <span>Full-Stack</span>
-                            </Typist>
+                        <Typist cursor={{
+                            show: true,
+                            blink: true,
+                            element: '|',
+                            hideWhenDone: true,
+                            hideWhenDoneDelay: 0,
+                        }}>
+                            <span>Front-End</span>
+                            <Typist.Backspace count={9} delay={1000}/>
+                            <span>Back-End</span>
+                            <Typist.Backspace count={8} delay={1000}/>
+                            <span>Full-Stack</span>
+                        </Typist>
 
                     </div>
-                    <div className="BigText">University of California Berkeley Electrical Engineering & Computer
-                        Science
-                    </div>
+                    <h2 className="BigText">
+                        <div>University of California, Berkeley</div>
+                        <div>Electrical Engineering &</div>
+                        <div>Computer Science</div>
+                    </h2>
 
                     <div className="SmallText">
                         <ReactRevealText show={this.state.show}>I love to code.

@@ -108,19 +108,11 @@ export default class HomePage extends Component {
                     {this.getMenu()}
                     <main id="page-wrap">
                         <header className="header">
-                            {/*<video className='Video' autoPlay loop muted>*/}
-                                {/*<source src={CoverVideo} type='video/mp4' />*/}
-                            {/*</video>*/}
                             <Navigation/>
-                            {/*<Fade up>*/}
                             <Banner/>
-                            {/*</Fade>*/}
-
-
                         </header>
                     </main>
                 </div>
-
 
                 <section ref={(section) => {
                     this.Experience = section;
