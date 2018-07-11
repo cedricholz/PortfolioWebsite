@@ -39,62 +39,62 @@ export default class TowerDefense extends React.Component {
                         Bees will either move forward one space, or attack an ant, and the ants will perform their
                         respective actions.</h3>
 
-                    <img src={antsdemo}/>
+                    <img alt="" className="Image" src={antsdemo}/>
 
-                    <h3>Harvester Ant <img src={harvester} width="80" height="80"/>
+                    <h3>Harvester Ant <img alt="" src={harvester} width="80" height="80"/>
                         <blacktext>Gains 1 food per turn.</blacktext>
                     </h3>
 
-                    <h3>Thrower Ant<img src={thrower} width="80" height="80"/>
+                    <h3>Thrower Ant<img alt="" src={thrower} width="80" height="80"/>
                         <blacktext>Throws leaf at nearest Bee.</blacktext>
                     </h3>
 
 
-                    <h3>Fire Ant <img src={fire} width="80" height="80"/>
+                    <h3>Fire Ant <img alt="" src={fire} width="80" height="80"/>
                         <blacktext>Reduces armor of all Bees on its space when it is eaten.</blacktext>
                     </h3>
 
-                    <h3>Short Thrower Ant <img src={short} width="80" height="80"/>
+                    <h3>Short Thrower Ant <img alt="" src={short} width="80" height="80"/>
                         <blacktext>Throws leaf at nearest Bee up to 3 spaces away.</blacktext>
                     </h3>
 
-                    <h3>Long Thrower Ant <img src={long} width="80" height="80"/>
+                    <h3>Long Thrower Ant <img alt="" src={long} width="80" height="80"/>
                         <blacktext>Throws leaf at nearest Bee up to 5 spaces away.</blacktext>
                     </h3>
 
 
-                    <h3>Wall Ant <img src={wall} width="80" height="80"/>
+                    <h3>Wall Ant <img alt="" src={wall} width="80" height="80"/>
                         <blacktext>Acts as a strong barrier.</blacktext>
                     </h3>
 
-                    <h3>Ninja Ant <img src={ninja} width="80" height="80"/>
+                    <h3>Ninja Ant <img alt="" src={ninja} width="80" height="80"/>
                         <blacktext>Invisible to Bees, but can stil attack.</blacktext>
                     </h3>
 
-                    <h3>Scuba Ant <img src={scuba} width="80" height="80"/>
+                    <h3>Scuba Ant <img alt="" src={scuba} width="80" height="80"/>
                         <blacktext>Will not lose armor when placed on water.</blacktext>
                     </h3>
 
-                    <h3>Hungry Ant <img src={hungry} width="80" height="80"/>
+                    <h3>Hungry Ant <img alt="" src={hungry} width="80" height="80"/>
                         <blacktext>Selects Bee from its place and eats it whole, waiting 3 turns before eating again.
                         </blacktext>
                     </h3>
 
-                    <h3>Bodyguard Ant <img src={bodyguard} width="80" height="80"/>
+                    <h3>Bodyguard Ant <img alt="" src={bodyguard} width="80" height="80"/>
                         <blacktext>Can be placed over any ant to add to its armor.</blacktext>
                     </h3>
 
-                    <h3>Tank Ant <img src={ant_tank} width="80" height="80"/>
+                    <h3>Tank Ant <img alt="" src={ant_tank} width="80" height="80"/>
                         <blacktext>Can be placed over any any ant to add to its armor and can also attack.</blacktext>
                     </h3>
 
-                    <h3>Queen Ant <img src={ant_queen} width="80" height="80"/>
+                    <h3>Queen Ant <img alt="" src={ant_queen} width="80" height="80"/>
                         <blacktext>Doubles the damage of ants behind her, but game is over if she dies.</blacktext>
                     </h3>
 
                 </div>
                 <GithubShare url={'https://github.com/cedricholz/Tower-Defense-Game'}/>
-                <Projects/>
+                <Projects mainPage={false}/>
             </div>
         )
     }

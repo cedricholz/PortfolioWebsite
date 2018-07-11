@@ -12,13 +12,13 @@ export default class Scoutible extends React.Component {
             <div className="Scoutible">
                 <Fade left>
                     <div>
-                        <a href={'http://www.scoutible.com/'} target="_blank" className="Link">
-                            <img src={scoutiblelogo} className="ScoutibleLogo"/>
+                        <a href={'http://www.scoutible.com/'} target="_blank" rel="noopener noreferrer" className="Link">
+                            <img alt="" src={scoutiblelogo} className="ScoutibleLogo"/>
                         </a>
-                        <h1>Scoutible</h1>
+                        <h2 className="BigText">Scoutible</h2>
 
-
-                        <h1>Full Stack Engineer Intern - Summer 2018</h1>
+                        <h1>Summer 2018</h1>
+                        <h1>Full Stack Engineer Intern</h1>
                         <h1 className="React Pad">[React.js]</h1>
                         <h1 className="Python Pad">[Python]</h1>
                         <div>

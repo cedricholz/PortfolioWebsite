@@ -3,7 +3,6 @@ import "./projectbackgroundstyles.css"
 import Navigation from '../../components/Navigation/Navigation'
 import Fade from 'react-reveal/Fade';
 import TextLoop from 'react-text-loop';
-import Link from "react-router-dom/es/Link";
 
 export default class ProjectBackground extends React.Component {
 

@@ -9,14 +9,13 @@ export default class ProjectTile extends React.Component {
 
         const {languages} = this.props;
 
-        console.log("languages", languages)
 
         const languagesJsx = languages.map((language) => {
             let name = language
             if (name === 'pi') {
                 name = 'Raspberry Pi'
             }
-            return <div className={`${language} Lang`}>[{name}]</div>
+            return <div key={language} className={`${language} Lang`}>[{name}]</div>
         });
 
 
@@ -24,7 +23,7 @@ export default class ProjectTile extends React.Component {
             <div className="ProjectTile">
                 <Fade up>
                     <Link to={this.props.url} className="Link">
-                        <img src={require('../../images/' + this.props.imageName)} className='ProjectImage'/>
+                        <img alt="" src={require('../../images/' + this.props.imageName)} className='ProjectImage'/>
                         <div className="ImageName">
                             <div>{this.props.projectName}</div>
                             <div className="Languages">

@@ -30,50 +30,50 @@ export default class Technologies extends React.Component {
         return (
             <div className="Technologies">
 
-                <a href="https://cloud.google.com/" target="_blank"><img src={gcp} className="Technology"/></a>
-                <a href="https://firebase.google.com/" target="_blank"><img src={firebase}
+                <a href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer"><img alt="" src={gcp} className="Technology"/></a>
+                <a href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer"><img alt="" src={firebase}
                                                                             className="Technology"/></a>
-                <a href="https://aws.amazon.com/" target="_blank"><img src={aws} className="Technology"/></a>
-                <a href="https://www.sublimetext.com/" target="_blank"><img src={sublime}
+                <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer"><img alt="" src={aws} className="Technology"/></a>
+                <a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer"><img alt="" src={sublime}
                                                                             className="Technology"/></a>
-                <a href="https://developer.android.com/studio/index.html" target="_blank"><img
+                <a href="https://developer.android.com/studio/index.html" target="_blank" rel="noopener noreferrer"><img alt=""
                     src={androidstudio}
                     className="Technology"/></a>
 
-                <a href="https://www.atlassian.com/software/jira" target="_blank"><img src={jira}
+                <a href="https://www.atlassian.com/software/jira" target="_blank" rel="noopener noreferrer"><img alt="" src={jira}
                                                                                        className="Technology"/></a>
-                <a href="https://github.com" target="_blank"><img src={largeblackgithub}
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer"><img alt="" src={largeblackgithub}
                                                                   className="Technology"/></a>
-                <a href="https://bitbucket.org/product" target="_blank"><img src={bitbucket}
+                <a href="https://bitbucket.org/product" target="_blank" rel="noopener noreferrer"><img alt="" src={bitbucket}
                                                                              className="Technology"/></a>
-                <a href="https://www.jetbrains.com/idea/" target="_blank"><img src={ijsmall}
+                <a href="https://www.jetbrains.com/idea/" target="_blank" rel="noopener noreferrer"><img alt="" src={ijsmall}
                                                                                className="Technology"/></a>
-                <a href="https://www.jetbrains.com/pycharm/" target="_blank"><img src={pycharm}
+                <a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noopener noreferrer"><img alt="" src={pycharm}
                                                                                   className="Technology"/></a>
 
-                <a href="https://www.jetbrains.com/clion/" target="_blank"><img src={clion}
+                <a href="https://www.jetbrains.com/clion/" target="_blank" rel="noopener noreferrer"><img alt="" src={clion}
                                                                                 className="Technology"/></a>
 
 
-                <a href="https://www.gimp.org/" target="_blank"><img src={gimp} className="Technology"/></a>
-                <a href="https://git-for-windows.github.io/" target="_blank"><img src={gitbash}
+                <a href="https://www.gimp.org/" target="_blank" rel="noopener noreferrer"><img alt="" src={gimp} className="Technology"/></a>
+                <a href="https://git-for-windows.github.io/" target="_blank" rel="noopener noreferrer"><img alt="" src={gitbash}
                                                                                   className="Technology"/></a>
-                <a href="https://www.getpostman.com/" target="_blank"><img src={postman}
+                <a href="https://www.getpostman.com/" target="_blank" rel="noopener noreferrer"><img alt="" src={postman}
                                                                            className="Technology"/></a>
 
 
-                <a href="https://www.arduino.cc/" target="_blank"><img src={arduino}
+                <a href="https://www.arduino.cc/" target="_blank" rel="noopener noreferrer"><img alt="" src={arduino}
                                                                        className="Technology"/></a>
-                <a href="https://www.raspberrypi.org/" target="_blank"><img src={raspberry}
+                <a href="https://www.raspberrypi.org/" target="_blank" rel="noopener noreferrer"><img alt="" src={raspberry}
                                                                             className="Technology"/></a>
 
-                <a href="https://www.jetbrains.com/webstorm/" target="_blank"><img src={webstorm}
+                <a href="https://www.jetbrains.com/webstorm/" target="_blank" rel="noopener noreferrer"><img alt="" src={webstorm}
                                                                                    className="Technology"/></a>
-                <a href="https://nodejs.org/en/" target="_blank"><img src={nodejs} className="Technology"/></a>
-                <a href="https://expressjs.com/" target="_blank"><img src={express} className="Technology"/></a>
+                <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer"><img alt="" src={nodejs} className="Technology"/></a>
+                <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer"><img alt="" src={express} className="Technology"/></a>
 
 
-                <a href="https://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank"><img
+                <a href="https://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank" rel="noopener noreferrer"><img alt=""
                     src={rest} className="Technology"/></a>
 
             </div>

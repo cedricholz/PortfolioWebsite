@@ -32,7 +32,7 @@ export default class BearMaps extends React.Component {
                         concatenation of their parent's name, and their quadrant, as shown below.
                     </h3>
 
-                    <img src={qt}/>
+                    <img alt="" className="Image" src={qt}/>
 
 
                     <h3>When the program starts, it fills a "Quad-Tree" data structure with nodes corresponding to every
@@ -43,7 +43,7 @@ export default class BearMaps extends React.Component {
                         many images are required to fill the camera view.</h3>
 
 
-                    <img src={quadtree}/>
+                    <img alt="" className="Image" src={quadtree}/>
 
 
                     <h3> Then using the OpenStreetMap Database, I created a database of every place of interest and
@@ -55,10 +55,10 @@ export default class BearMaps extends React.Component {
 
                     <h2>Dijkstras</h2>
 
-                    <img src={dijkstras}/>
+                    <img alt="" className="Image" src={dijkstras}/>
 
                     <h2>A*</h2>
-                    <img src={Astar}/>
+                    <img alt="" className="Image" src={Astar}/>
 
                     <h3>To finish the map I put all the place names into a Trie data structure, which creates a tree
                         whose nodes are the consecutive letters of words. When given part of a string, it will go down
@@ -67,15 +67,15 @@ export default class BearMaps extends React.Component {
                         search bar.</h3>
 
 
-                    <img src={trie}/>
+                    <img alt="" className="Image" src={trie}/>
 
                     <h2>Bear Maps</h2>
 
-                    <img src={bearmaps}/>
+                    <img alt="" className="Image" src={bearmaps}/>
 
                 </div>
                 <GithubShare url={'https://github.com/cedricholz/Bear-Maps'}/>
-                <Projects/>
+                <Projects mainPage={false}/>
             </div>
         )
     }

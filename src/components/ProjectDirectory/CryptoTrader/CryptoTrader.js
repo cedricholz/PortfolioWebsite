@@ -41,7 +41,7 @@ export default class CryptoTrader extends React.Component {
                         to
                         below the bottom line.</h3>
 
-                    <img src={Keltnerchannels}/>
+                    <img alt="" className="WideImage" src={Keltnerchannels}/>
 
                     <h3>For our third strategy, we noticed that Reddit.com/r/CryptoCurrency would often mention coins
                         days or
@@ -59,17 +59,17 @@ export default class CryptoTrader extends React.Component {
                         before selling.</h3>
 
 
-                    <img src={reddit} className="RedditImage"/>
+                    <img alt="" src={reddit} className="RedditImage"/>
 
                     {/*<h2>Reddit r/Cryptocurrency Data Updated Hourly (When Pi is Running)</h2>*/}
 
                     <h2>Headless Raspberry Pi running the Algorithm</h2>
 
-                    <img src={pi} className="PiImage"/>
+                    <img alt="" src={pi} className="WideImage"/>
                 </div>
 
                 <GithubShare url={'https://github.com/cedricholz/Python-Cryptocurrency-Scraper-Trader'}/>
-                <Projects/>
+                <Projects mainPage={false}/>
             </div>
         )
     }

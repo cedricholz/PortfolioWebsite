@@ -15,13 +15,13 @@ export default class TooLow extends React.Component {
 
                 <Fade right>
                     <div>
-                        <a href={'http://toolowapp.com/'} target="_blank" className="Link">
-                            <img src={toolowlogo} className="ToolowLogo"/>
+                        <a href={'http://toolowapp.com/'} target="_blank" rel="noopener noreferrer" className="Link">
+                            <img alt="" src={toolowlogo} className="ToolowLogo"/>
                         </a>
-                        <h1>TooLow</h1>
+                        <h2 className="BigText">TooLow</h2>
 
-
-                        <h1>Android Software Engineer Intern - Summer 2017</h1>
+                        <h1>Summer 2017</h1>
+                        <h1>Android Software Engineer Intern</h1>
 
                         <h1 className="Android">[Android]</h1>
 
@@ -67,8 +67,8 @@ export default class TooLow extends React.Component {
                         </div>
 
                         <div className="MobileImages">
-                            <img src={toolow1} className="TooLowMobile"/>
-                            <img src={toolow2} className="TooLowMobile"/>
+                            <img alt="" src={toolow1} className="TooLowMobile Image"/>
+                            <img alt="" src={toolow2} className="TooLowMobile Image"/>
                         </div>
                     </div>
                 </Fade>

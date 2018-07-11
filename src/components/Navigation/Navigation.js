@@ -16,12 +16,12 @@ export default class Navigation extends React.Component {
                         <div className="Name">Cedric Holz</div>
                     </Link>
 
-                    <a href={"https://github.com/cedricholz"} target="_blank">
-                        <img src={github} className="NavigationButtons"/>
+                    <a href={"https://github.com/cedricholz"} target="_blank" rel="noopener noreferrer">
+                        <img alt="" src={github} className="NavigationButtons"/>
                     </a>
-                    <a href={"https://www.linkedin.com/in/cedricholz/"} target="_blank">
+                    <a href={"https://www.linkedin.com/in/cedricholz/"} target="_blank" rel="noopener noreferrer">
 
-                        <img src={linkedIn} className="NavigationButtons"/>
+                        <img alt="" src={linkedIn} className="NavigationButtons"/>
                     </a>
                 </Fade>
             </div>

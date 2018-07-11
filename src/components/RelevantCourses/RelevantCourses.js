@@ -9,7 +9,7 @@ export default class RelevantCourses extends React.Component {
             <div className="CenterCourses">
 
                 <div className="LinkText">
-                    <a href="https://inst.eecs.berkeley.edu/~cs61a/fa16/" target="_blank">
+                    <a href="https://inst.eecs.berkeley.edu/~cs61a/fa16/" target="_blank" rel="noopener noreferrer" >
                         <Fade left>
 
                             <div className="Courses">Structure and Interpretation of Computer Programs <div
@@ -20,7 +20,7 @@ export default class RelevantCourses extends React.Component {
                 </div>
 
                 <div className="LinkText">
-                    <a href="http://science.sbcc.edu/physics/young/index.html" target="_blank">
+                    <a href="http://science.sbcc.edu/physics/young/index.html" target="_blank" rel="noopener noreferrer">
                         <Fade right>
 
                             <div className="Courses">Physics I, II, III</div>
@@ -29,7 +29,7 @@ export default class RelevantCourses extends React.Component {
                 </div>
 
                 <div className="LinkText">
-                    <a href="https://inst.eecs.berkeley.edu/~ee16a/fa16/" target="_blank">
+                    <a href="https://inst.eecs.berkeley.edu/~ee16a/fa16/" target="_blank" rel="noopener noreferrer">
 
                         <Fade left>
 
@@ -41,7 +41,7 @@ export default class RelevantCourses extends React.Component {
                 </div>
 
                 <div className="LinkText">
-                    <a href="http://datastructur.es/sp16/" target="_blank">
+                    <a href="http://datastructur.es/sp16/" target="_blank" rel="noopener noreferrer">
                         <Fade right>
 
                             <div className="Courses">Data Structures <div className="Java">[Java]</div></div>
@@ -52,7 +52,7 @@ export default class RelevantCourses extends React.Component {
                 </div>
 
                 <div className="LinkText">
-                    <a href="http://sp17.eecs70.org/" target="_blank">
+                    <a href="http://sp17.eecs70.org/" target="_blank" rel="noopener noreferrer">
                         <Fade left>
 
                             <div className="Courses">Discrete Mathematics and Probability Theory</div>
@@ -63,7 +63,7 @@ export default class RelevantCourses extends React.Component {
                 </div>
 
                 <div className="LinkText">
-                    <a href="http://www-inst.eecs.berkeley.edu/~cs61c/su17/" target="_blank">
+                    <a href="http://www-inst.eecs.berkeley.edu/~cs61c/su17/" target="_blank" rel="noopener noreferrer">
                         <Fade right>
 
                             <div className="Courses">Machine Structures <div className="C">[C]</div></div>
@@ -73,7 +73,7 @@ export default class RelevantCourses extends React.Component {
                 </div>
 
                 <div className="LinkText">
-                    <a href="http://www-inst.eecs.berkeley.edu/~cs170/fa17/" target="_blank">
+                    <a href="http://www-inst.eecs.berkeley.edu/~cs170/fa17/" target="_blank" rel="noopener noreferrer">
                         <Fade left>
 
                             <div className="Courses">Efficient Algorithms and Intractable Problems <div
@@ -84,7 +84,7 @@ export default class RelevantCourses extends React.Component {
                 </div>
 
                 <div className="LinkText">
-                    <a href="https://blockchain.berkeley.edu/decal/fa17/fund/" target="_blank">
+                    <a href="https://blockchain.berkeley.edu/decal/fa17/fund/" target="_blank" rel="noopener noreferrer">
                         <Fade right>
 
                             <div className="Courses">Blockchain Fundamentals</div>
@@ -95,7 +95,7 @@ export default class RelevantCourses extends React.Component {
                 </div>
 
                 <div className="LinkText">
-                    <a href="https://www2.eecs.berkeley.edu/Courses/CS188/" target="_blank">
+                    <a href="https://www2.eecs.berkeley.edu/Courses/CS188/" target="_blank" rel="noopener noreferrer">
                         <Fade left>
 
                             <div className="Courses">Artificial Intelligence <div className="Python">[Python]</div>
@@ -106,7 +106,7 @@ export default class RelevantCourses extends React.Component {
                 </div>
 
                 <div className="LinkText">
-                    <a href="https://www.icir.org/vern/cs161-sp17/" target="_blank">
+                    <a href="https://www.icir.org/vern/cs161-sp17/" target="_blank" rel="noopener noreferrer">
                         <Fade right>
 
                             <div className="Courses">Computer Security <div className="Python">[Python]</div></div>
@@ -117,7 +117,7 @@ export default class RelevantCourses extends React.Component {
                 </div>
 
                 <div className="LinkText">
-                    <a href="http://teaching.paulos.net/cs160_SP2016/" target="_blank">
+                    <a href="http://teaching.paulos.net/cs160_SP2016/" target="_blank" rel="noopener noreferrer">
                         <Fade left>
                             <div className="Courses">User Interface Design and Development <div
                                 className="Android">[Android]</div></div>
@@ -126,7 +126,7 @@ export default class RelevantCourses extends React.Component {
                 </div>
 
                 <div className="LinkText">
-                    <a href="https://www2.eecs.berkeley.edu/Courses/CSC100/" target="_blank">
+                    <a href="https://www2.eecs.berkeley.edu/Courses/CSC100/" target="_blank" rel="noopener noreferrer">
                         <Fade right>
                             <div className="Courses">Principles & Techniques of Data Science - Fall 2018</div>
                         </Fade>

@@ -6,20 +6,17 @@ import Experience from "./components/Experience/Experience"
 import Banner from "./components/Banner/Banner"
 import SectionHeader from "./components/SectionHeader/SectionHeader"
 import Projects from "./components/Projects/Projects"
-import github from './images/github.png';
-import linkedIn from './images/linked.png';
+
 import RelevantCourses from "./components/RelevantCourses/RelevantCourses";
 import ucberkeleyseal from "./images/ucberkeleyseal.png"
 import Skills from "./components/Skills/Skills"
 import scrollToComponent from 'react-scroll-to-component';
 import BurgerMenu from 'react-burger-menu';
 import {Fade} from "react-reveal";
+import Contact from "./components/Contact/Contact";
 
 
 class MenuWrap extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (
@@ -53,12 +50,15 @@ export default class HomePage extends Component {
             case 'CONTACT':
                 scrollToComponent(this.Contact, {offset: 0, align: 'top', duration: 1500});
                 break;
+            default:
+                break
         }
     };
 
     constructor(props) {
         super(props);
-        this.state = {open: false}
+        this.state = {open: false};
+
     }
 
     getMenu() {
@@ -66,22 +66,22 @@ export default class HomePage extends Component {
         const items = [
             <h2 key="0"><i className="fa fa-fw fa-inbox fa-2x"/><span>Navigation</span></h2>,
 
-            <div className="MenuContainer" onClick={() => this.scrollToComponents("EXPERIENCE")}>
+            <div key="1" className="MenuContainer" onClick={() => this.scrollToComponents("EXPERIENCE")}>
                 <span className="MenuItem">EXPERIENCE</span>
             </div>,
-            <div className="MenuContainer" onClick={() => this.scrollToComponents("PROJECTS")}>
+            <div key="2" className="MenuContainer" onClick={() => this.scrollToComponents("PROJECTS")}>
                 <span className="MenuItem">PROJECTS</span>
             </div>,
-            <div className="MenuContainer" onClick={() => this.scrollToComponents("EDUCATION")}>
+            <div key="3" className="MenuContainer" onClick={() => this.scrollToComponents("EDUCATION")}>
                 <span className="MenuItem">EDUCATION</span>
             </div>,
-            <div className="MenuContainer" onClick={() => this.scrollToComponents("COURSES")}>
+            <div key="4" className="MenuContainer" onClick={() => this.scrollToComponents("COURSES")}>
                 <span className="MenuItem">COURSES</span>
             </div>,
-            <div className="MenuContainer" onClick={() => this.scrollToComponents("SKILLS")}>
+            <div key="5" className="MenuContainer" onClick={() => this.scrollToComponents("SKILLS")}>
                 <span className="MenuItem">SKILLS</span>
             </div>,
-            <div className="MenuContainer" onClick={() => this.scrollToComponents("CONTACT")}>
+            <div key="6" className="MenuContainer" onClick={() => this.scrollToComponents("CONTACT")}>
                 <span className="MenuItem">CONTACT</span>
             </div>,
 
@@ -125,7 +125,7 @@ export default class HomePage extends Component {
                 <section ref={(section) => {
                     this.Projects = section;
                 }}>
-                    <Projects/>
+                    <Projects mainPage={true}/>
                 </section>
 
                 <section ref={(section) => {
@@ -136,8 +136,8 @@ export default class HomePage extends Component {
 
                 <Fade up>
                     <div className="CenterText">
-                        <a href={"https://www.berkeley.edu/"} target="_blank">
-                            <img src={ucberkeleyseal} className="BerkeleySeal"/>
+                        <a href={"https://www.berkeley.edu/"} target="_blank" rel="noopener noreferrer">
+                            <img alt="" src={ucberkeleyseal} className="BerkeleySeal"/>
                         </a>
 
                         <h2 className="School">University of California, Berkeley</h2>
@@ -167,21 +167,9 @@ export default class HomePage extends Component {
                 <section ref={(section) => {
                     this.Contact = section;
                 }}>
-                    <SectionHeader title={"CONTACT"}/>
+
+                    <Contact/>
                 </section>
-
-
-                <div className="Contact">
-                    <h2>cedricholz@gmail.com</h2>
-                    <div>
-                        <a href={"https://github.com/cedricholz"}>
-                            <img src={github} className="ContactLinks" target="_blank"/>
-                        </a>
-                        <a href={"https://www.linkedin.com/in/cedricholz/"}>
-                            <img src={linkedIn} className="ContactLinks" target="_blank"/>
-                        </a>
-                    </div>
-                </div>
 
 
             </div>

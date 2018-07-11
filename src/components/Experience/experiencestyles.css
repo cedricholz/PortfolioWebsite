@@ -7,7 +7,7 @@
     padding-bottom: 25px;
 }
 
-.Experience{
+.Experience {
 
 }
 
@@ -29,11 +29,24 @@
 
 .TooLowMobile {
     height: 480px;
-    padding-left: 10px;
+    margin-left: 2vh;
+    margin-right: 2vh;
     width: auto;
+
+
+
 }
 
-.Pad{
-    padding-right: 5px;
-    padding-left: 5px;
+.Pad {
+    padding-right: .9vh;
+    padding-left: .9vh;
 }
+
+.TooLow h1 {
+    font-size: 2.9vh;
+}
+
+.Scoutible h1 {
+    font-size: 2.9vh;
+}
+

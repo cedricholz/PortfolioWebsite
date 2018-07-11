@@ -29,7 +29,7 @@ export default class McAfee extends React.Component {
                         bump."
                     </h3>
 
-                    <img className="BurstImage" src={burst}/>
+                    <img alt="" className="BurstImage Image" src={burst}/>
 
                     <h3>
                         McAfee soon caught on that people were building bots to
@@ -39,7 +39,7 @@ export default class McAfee extends React.Component {
                     </h3>
 
 
-                    <img src={tron}/>
+                    <img alt="" className="Image" src={tron}/>
 
                     <h3>
                         I quickly modified the bot to also parse each image's text through a free OCR
@@ -48,7 +48,7 @@ export default class McAfee extends React.Component {
                     </h3>
                 </div>
                 <GithubShare url={'https://github.com/cedricholz/Mcafee-Twitter-Crypto-Bot'}/>
-                <Projects/>
+                <Projects mainPage={false}/>
             </div>
         )
     }

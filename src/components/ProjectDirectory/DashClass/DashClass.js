@@ -9,11 +9,14 @@ import dashthumb from '../../../images/dashthumb.png'
 export default class DashClass extends React.Component {
 
     render() {
+
+        const deviceWidth = window.innerWidth;
         return (
             <div className="DashClass">
 
                 <ProjectBackground projectName={"Dash Class"}
-                                   backgroundColor={'linear-gradient(to top right,#34e89e, #0f3443)'} languages={['React.js']}/>
+                                   backgroundColor={'linear-gradient(to top right,#34e89e, #0f3443)'}
+                                   languages={['React.js']}/>
                 <div className="TextBlock">
                     <h2>A student professor dashboard to be used in class to keep students engaged and the
                         professor more effective</h2>
@@ -28,18 +31,29 @@ export default class DashClass extends React.Component {
                         questions, and anonymously ask professors for more clarity on certain topics.
                     </h3>
 
-                    <img src={dashthumb}/>
 
-                    <h2>Try it out below and leave a comment or ask a question in room "evvk8"!</h2>
+                    {deviceWidth > 600 ?
+                        <div>
+                            <img alt="" src={dashthumb} className="WideImage Image"/>
+                            <iframe title="DashClass" className="DashClassExample"
+                                    src="http://cedricholz.com/dashclass.html#/" height="600px" width="800px"></iframe>
+                        </div> : <div>
+                            <h2>Tap the image below to try it out! </h2>
+                            <a href="http://cedricholz.com/dashclass.html#/"
+                               className="LinkText">
+                                <img alt="" src={dashthumb} className="WideImage Image"/>
+                            </a>
+                        </div>
 
 
-                    <iframe src="http://cedricholz.com/dashclass.html#/" height="600px" width="800px"></iframe>
+                    }
 
-                    <script async src="https://snack.expo.io/embed.js"></script>
+
+                    {/*<script async src="https://snack.expo.io/embed.js"></script>*/}
 
                 </div>
                 <GithubShare url={'https://github.com/cedricholz/Dash-Class'}/>
-                <Projects/>
+                <Projects mainPage={false}/>
             </div>
         )
     }

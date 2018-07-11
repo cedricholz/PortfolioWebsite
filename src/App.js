@@ -13,8 +13,8 @@ import SQLFramework from "./components/ProjectDirectory/SQLFramework/SQLFramewor
 import DistanceLights from "./components/ProjectDirectory/DistanceLights/DistanceLights"
 import TimeCapsule from "./components/ProjectDirectory/TimeCapsule/TimeCapsule"
 
-import {HashRouter, BrowserRouter, Router} from 'react-router-dom'
-import {Link, Route, Switch} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom'
+import {Route} from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import McAfee from "./components/ProjectDirectory/McAfee/McAfee";
 
@@ -47,9 +47,11 @@ const Project = (projectName) => {
         case 'TowerDefense':
             return <TowerDefense/>;
         case 'SqlFramework':
-            return <SQLFramework/>
+            return <SQLFramework/>;
         case 'TimeCapsule':
-            return <TimeCapsule/>
+            return <TimeCapsule/>;
+        default:
+            return ""
     }
 };
 

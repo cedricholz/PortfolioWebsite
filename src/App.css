@@ -89,6 +89,12 @@
     display: inline-block;
 }
 
+.BigText {
+    font-size: 4vh;
+    padding-top: 3px;
+    color: white;
+}
+
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,800);
 *,
@@ -186,13 +192,23 @@ main {
     color: #fffce1;
 }
 
+
+.Image{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
 @media screen and (max-width: 40em) {
+
+
+    .Image {
+        max-width: 100%;
+    }
     main {
         font-size: 80%;
     }
 
     h1 {
-        padding-top: 1em;
+        padding-top: .2vh;
         font-size: 2.5em;
     }
 
@@ -200,7 +216,19 @@ main {
         max-width: 900px;
         padding: 0 2em;
     }
+
+    .img{
+        width: 10px;
+    }
 }
+
+.WideImage{
+    height: auto;
+    width: 80vh;
+    max-width: 95%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 .bm-burger-button {
     position: absolute;

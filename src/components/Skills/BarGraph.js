@@ -104,8 +104,8 @@ export default class Skills extends React.Component {
                         </div>
 
                         {skills.map((skill) =>
-                            <div className="Bar">
-                                <img src={require('../../images/' + skill.imageName)} className='BarImage'/>
+                            <div key={skill.Name} className="Bar">
+                                <img alt="" src={require('../../images/' + skill.imageName)} className='BarImage' />
                                 <div style={{
                                     background: skill.BarColor,
                                     height: `${skill.percentage / 900 * graphHeightPixels}vh`, marginBottom: '2vh'

@@ -32,43 +32,43 @@ export default class TimeCapsule extends React.Component {
 
                     <div className="AllAndroidImages">
                         <div className="AndroidImage">
-                            <img className="AndroidImage" src={berkeley}/>
+                            <img alt="" className="AndroidImage Image" src={berkeley}/>
                             <h3>Main screen where you can view boxes around the world where people stored their
                                 content that can be accessed by walking to them</h3>
                         </div>
-                        <div className="AndroidImage"><img className="AndroidImage" src={createbox}/>
+                        <div className="AndroidImage"><img alt="" className="AndroidImage Image" src={createbox}/>
                             <h3>Box Creation</h3>
                         </div>
                         <div className="AndroidImage">
-                            <img className="AndroidImage" src={box}/>
+                            <img alt="" className="AndroidImage Image" src={box}/>
                             <h3>Inside a Box comments can be voted on</h3>
                         </div>
                         <div className="AndroidImage">
-                            <img className="AndroidImage" src={insidecomment}/>
+                            <img alt="" className="AndroidImage" src={insidecomment}/>
                             <h3>Comments can be tapped to open new threads</h3>
                         </div>
 
                         <div className="AndroidImage">
-                            <img className="AndroidImage" src={photogallery}/>
+                            <img alt="" className="AndroidImage Image" src={photogallery}/>
                             <h3>A photo gallery can be opened to view all images inside a box</h3>
                         </div>
 
                         <div className="AndroidImage">
-                            <img className="AndroidImage" src={inmessage}/>
+                            <img alt="" className="AndroidImage Image" src={inmessage}/>
                             <h3>Tap someone's name to privately message them</h3>
                         </div>
                         <div className="AndroidImage">
-                            <img className="AndroidImage" src={messages}/>
+                            <img alt="" className="AndroidImage Image" src={messages}/>
                             <h3>All messages</h3>
                         </div>
 
                         <div className="AndroidImage">
-                            <img className="AndroidImage" src={myboxes}/>
+                            <img alt="" className="AndroidImage Image" src={myboxes}/>
                             <h3>View of all boxes the user has created</h3>
                         </div>
 
                         <div className="AndroidImage">
-                            <img className="AndroidImage" src={nearbyboxes}/>
+                            <img alt="" className="AndroidImage Image" src={nearbyboxes}/>
                             <h3>All nearby boxes, their distances and how many photos and comments are contained inside
                                 them</h3>
                         </div>
@@ -78,7 +78,7 @@ export default class TimeCapsule extends React.Component {
 
                 </div>
                 <GithubShare url={'https://github.com/cedricholz/TimeCapsule'}/>
-                <Projects/>
+                <Projects mainPage={false}/>
             </div>
         )
     }

@@ -1,6 +1,5 @@
 import React from 'react';
 import "./bannerstyles.css"
-import bear from '../../images/smallbear.png';
 import Typist from 'react-typist';
 import ReactRevealText from "react-reveal-text";
 
@@ -30,7 +29,7 @@ export default class Banner extends React.Component {
             <div className="Banner">
 
 
-                {/*<img src={bear} className="BannerLogo"/>*/}
+                {/*<img alt="" src={bear} className="BannerLogo"/>*/}
                 <div className="BannerInfo">
 
 

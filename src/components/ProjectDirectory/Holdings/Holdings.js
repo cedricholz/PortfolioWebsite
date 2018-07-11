@@ -39,15 +39,15 @@ export default class Holdings extends React.Component {
                     </h3>
 
 
-                    <img src={Portfolio}/>
+                    <img alt="" className="MobileImages Image" src={Portfolio}/>
 
                     <h2>Holdings main screen. (I manually added these coins, unfortunately I do not yet have 121.2K
                         in
                         Cryptocurrency)</h2>
 
 
-                    <img className="MobileImages" src={addcoin}/>
-                    <img className="MobileImages" src={addexchange}/>
+                    <img alt="" className="MobileImages Image" src={addcoin}/>
+                    <img alt="" className="MobileImages Image" src={addexchange}/>
 
 
                     <h2>Add Coin, Add Keys, and Edit Bought</h2>
@@ -77,11 +77,11 @@ export default class Holdings extends React.Component {
                             Holdings on Google Play</h3>
                     </a>
                     <a href="https://play.google.com/store/apps/details?id=com.automatedcryptocurrencyportfolio">
-                        <img src={playicon}/>
+                        <img alt="" src={playicon}/>
                     </a>
                 </div>
                 <GithubShare url={'https://github.com/cedricholz/AutomatedCryptocurrencyPortfolio'}/>
-                <Projects/>
+                <Projects mainPage={false}/>
             </div>
         )
     }

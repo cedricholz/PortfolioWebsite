@@ -23,7 +23,7 @@ export default class SQLFramework extends React.Component {
                         Specific Language, a lot like SQL, for storing data,into tables and columns like the one
                         below.</h3>
 
-                    <img src={db}/>
+                    <img alt="" className="Image" src={db}/>
 
 
                     <h3>We began by getting together to write up a full design for the system on a whiteboard. We came to
@@ -31,7 +31,7 @@ export default class SQLFramework extends React.Component {
                         organizing them into Arraylist columns, so we could more easily join tables together.
                         We then ironed out some finer details by creating this rough UML diagram.</h3>
 
-                    <img src={UML}/>
+                    <img alt="" className="Image" src={UML}/>
 
                     <h3>By creating our design and ironing out the kinks before jumping into writing code, we were able
                         to write the whole thing without any major setbacks and when finished, we had an operational
@@ -40,7 +40,7 @@ export default class SQLFramework extends React.Component {
 
                 </div>
                 <GithubShare url={'https://github.com/cedricholz/SQL-Framework'}/>
-                <Projects/>
+                <Projects mainPage={false}/>
             </div>
         )
     }

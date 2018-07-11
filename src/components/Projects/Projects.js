@@ -2,9 +2,12 @@ import React from 'react';
 import "./projectsstyles.css"
 import ProjectTile from './ProjectTile'
 import SectionHeader from "../../components/SectionHeader/SectionHeader"
+import Contact from "../Contact/Contact";
 
 export default class Projects extends React.Component {
     render() {
+        const {mainPage} = this.props;
+
         return (
             <div>
                 <SectionHeader title={"PROJECTS"}/>
@@ -56,7 +59,11 @@ export default class Projects extends React.Component {
 
                     <ProjectTile imageName={'sqlframework.png'} projectName={'SQL Framework'}
                                  url={'/sqlframework'} languages={['Java']}/>
+
+
                 </div>
+                {mainPage ? "" : <Contact/>}
+
             </div>
         )
     }

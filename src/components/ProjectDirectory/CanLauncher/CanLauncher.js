@@ -3,13 +3,22 @@ import "./canlauncher.css"
 
 import ProjectBackground from '../../../components/ProjectBackground/ProjectBackground'
 import Projects from '../../../components/Projects/Projects'
-import GithubShare from "../../../components/GithubShare/GithubShare"
 import resizedfridge from '../../../images/resizedfridge.png'
 
 
 export default class CanLauncher extends React.Component {
 
     render() {
+
+        const deviceWidth = window.innerWidth;
+        let vidWidth = "560";
+        let vidHeight = "315";
+
+        if (deviceWidth < 600) {
+            vidWidth = "280";
+            vidHeight = "auto";
+        }
+
         return (
             <div className="DashClass">
 
@@ -38,7 +47,7 @@ export default class CanLauncher extends React.Component {
                     </h3>
 
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7Qjovu8pz1Q" frameborder="0"
+                    <iframe title="CanLauncher" width={vidWidth} height={vidHeight} src="https://www.youtube.com/embed/7Qjovu8pz1Q" frameborder="0"
                             allowfullscreen />
 
                     <h3>The app would dispense a can from a mini fridge on top (not pictured) to the barrel, move the
@@ -47,11 +56,11 @@ export default class CanLauncher extends React.Component {
                         pressurized, it waited for confirmation from the app, and then fired the can from the
                         barrel.</h3>
 
-                    <img src={resizedfridge}/>
+                    <img alt="" className="Image" src={resizedfridge}/>
 
-                    <div className="WhiteText">* Alex helped a little</div>
+                    <div className="BlackText">* Alex helped a little</div>
                 </div>
-                <Projects/>
+                <Projects mainPage={false}/>
             </div>
         )
     }

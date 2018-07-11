@@ -7,9 +7,7 @@ import GithubShare from "../../../components/GithubShare/GithubShare"
 import assember from '../../../images/assember.jpg'
 import mips from '../../../images/mips.png'
 import cpu from '../../../images/cpu.png'
-import blackgithub from '../../../images/blackgithub.png'
 
-blackgithub
 export default class CPU extends React.Component {
 
     render() {
@@ -28,7 +26,7 @@ export default class CPU extends React.Component {
                     <h3>The MIPS Assembler parses MIPS commands in C, and translates them into machine code.</h3>
 
 
-                    <img src={assember}/>
+                    <img alt="" className="Image" src={assember}/>
 
 
                     <GithubShare customTitle={'Assembler Code on GitHub'} url={'https://github.com/cedricholz?tab=repositories'}/>
@@ -37,18 +35,18 @@ export default class CPU extends React.Component {
                         addresses.</h3>
 
 
-                    <img src={mips}/>
+                    <img alt="" className="Image" src={mips}/>
 
                     <GithubShare customTitle={'Linker Code on GitHub'} url={'https://github.com/cedricholz/Mips-Linker'}/>
 
 
                     <h3>The Single Cycle MIPS CPU that executes MIPS commands.</h3>
 
-                    <img src={cpu}/>
+                    <img alt="" className="Image" src={cpu}/>
 
                 </div>
 
-                <Projects/>
+                <Projects mainPage={false}/>
             </div>
     )
     }
