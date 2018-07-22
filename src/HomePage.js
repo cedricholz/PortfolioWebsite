@@ -15,7 +15,6 @@ import BurgerMenu from 'react-burger-menu';
 import {Fade} from "react-reveal";
 import Contact from "./components/Contact/Contact";
 
-
 class MenuWrap extends Component {
 
     render() {
@@ -58,7 +57,16 @@ export default class HomePage extends Component {
     constructor(props) {
         super(props);
         this.state = {open: false};
-
+        const myName = "\n" +
+            " __   ___  __   __     __  \n" +
+            "/  ` |__  |  \\ |__) | /  ` \n" +
+            "\\__, |___ |__/ |  \\ | \\__, \n" +
+            "                           \n" +
+            "      __       __          \n" +
+            "|__| /  \\ |     /          \n" +
+            "|  | \\__/ |___ /_          \n" +
+            "                           \n";
+        console.log(myName)
     }
 
     getMenu() {
@@ -141,8 +149,8 @@ export default class HomePage extends Component {
                         </a>
 
                         <h2 className="School">University of California, Berkeley</h2>
-                        <h3 className="ListItem">B.S. Electrical Engineering and Computer Science - December
-                            2018</h3>
+                        <h3>December 2018</h3>
+                        <h3 className="ListItem">B.S. Electrical Engineering and Computer Science</h3>
                     </div>
                 </Fade>
 

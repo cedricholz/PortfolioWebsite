@@ -4,28 +4,24 @@
 }
 
 .Banner {
-    /*position: relative;*/
+
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 678px;
     margin: auto;
-    padding-top: 180px;
+
 }
 
 .BannerName {
     /*color:#183D6E;*/
     color: white;
+    padding-bottom: 10px;
 }
 
 .MyName {
     background: linear-gradient(135deg, #34b288, #7bc059);
-    padding: .2em;
-}
-
-.BannerInfo {
-    color: #f2f2f2;
-    font-weight: bold;
-    /*font-size: 32px;*/
-    font-size: 4vh;
+    padding: .4vh 1vh .4vh 1vh;
 }
 
 
@@ -42,23 +38,20 @@
     }
 
     .BigText {
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 3vh;
         display: inline-block;
     }
 
-    .TypedText{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .MyName{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
 }
 
 .FullStack {
     display: inline-block;
     color: white;
+}
+
+.TypedText{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

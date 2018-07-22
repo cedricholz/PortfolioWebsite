@@ -5,8 +5,9 @@ export default class SectionHeader extends React.Component {
 
     render() {
         return (
-            <div className="header-section">
-                <h2><strong><span></span>{this.props.title}<span></span></strong></h2>
+            <div className="SectionHeader">
+                <h2 className="head"><strong>{this.props.title}</strong></h2>
+                {/*<div className="Underline"></div>*/}
             </div>
         )
     }

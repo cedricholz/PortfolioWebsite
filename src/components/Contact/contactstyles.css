@@ -1,3 +1,27 @@
 .Contact{
 
 }
+
+.Info{
+
+    padding-bottom: 50px;
+}
+
+
+.Resume{
+    color: white;
+    font-size: 3vh;
+    cursor:pointer;
+}
+
+.Resume:hover{
+    color: white;
+}
+
+.ContactLinks{
+
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+
+}

@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Karla|Archivo|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Assistant|Bree+Serif|Crete+Round|Francois+One|Montserrat|Nanum+Gothic|Open+Sans|Righteous');
 
 .App {
-    font-family: 'Lato';
+    font-family: 'Lato', 'SansSerif';
     background: #263238;
+    /*font-weight: bold;*/
 }
 
 .header {
@@ -42,59 +45,63 @@
     color: #F8981D;
     display: inline-block;
 }
-.MIPS{
+
+.MIPS {
     color: #ABF6AB;
     display: inline-block;
 }
 
-.Arduino{
+.Arduino {
     color: #00979C;
     display: inline-block;
 }
 
-.React-Native{
+.React-Native {
     color: #00D7FE;
     display: inline-block;
 }
 
-.React{
+.React {
     color: #00D7FE;
     display: inline-block;
 }
 
-.pi{
+.pi {
     color: #C41949;
     display: inline-block;
 }
 
-.Node{
+.Node {
     color: #83CD29;
     display: inline-block;
 }
 
-.Express{
+.Express {
     color: #F7DF1E;
     display: inline-block;
 }
-.HTML{
+
+.HTML {
     color: #E44D26;
     display: inline-block;
 }
-.CSS{
+
+.CSS {
     color: #264DE4;
     display: inline-block;
 }
-.GCP{
+
+.GCP {
     color: #db3236;
     display: inline-block;
 }
 
 .BigText {
-    font-size: 4vh;
-    padding-top: 3px;
+    font-size: 5vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: white;
 }
-
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,800);
 *,
@@ -192,17 +199,16 @@ main {
     color: #fffce1;
 }
 
-
-.Image{
+.Image {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 40em) {
 
-
     .Image {
         max-width: 100%;
     }
+
     main {
         font-size: 80%;
     }
@@ -217,18 +223,17 @@ main {
         padding: 0 2em;
     }
 
-    .img{
+    .img {
         width: 10px;
     }
 }
 
-.WideImage{
+.WideImage {
     height: auto;
     width: 80vh;
     max-width: 95%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 .bm-burger-button {
     position: absolute;
@@ -494,7 +499,6 @@ main {
     padding-left: 25px;
     text-align: center;
 }
-
 
 .WhiteText {
     color: white;

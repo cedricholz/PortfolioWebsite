@@ -27,9 +27,3 @@
     /*color: white;*/
     /*font-size: 4vh;*/
 }
-
-.TypedText{
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-}

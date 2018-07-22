@@ -1,15 +1,29 @@
-.header-section {
+.SectionHeader{
+    text-align: center;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+.head {
+    font-size: 7vh;
     padding-top: 20px;
-}
-
-.header-section span {
-    background: black;
-    height: 1px;
-    width: 20%;
+    padding-bottom: 20px;
+    border-bottom: 10px solid #00af9b;
     display: inline-block;
-    vertical-align: middle;
-
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
 }
+
+/*.header-section span {*/
+    /*background: black;*/
+    /*height: 1px;*/
+    /*width: 20%;*/
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+
+/*}*/
+
 
 @media only screen and (max-width: 600px) {
     .header-section span {
@@ -17,11 +31,12 @@
     }
 }
 
-.header-section h2 {
+.head h2 {
     font-weight: bold;
     margin-top: 1em;
     margin: 0;
-    padding: .5em 0 1em 0;
+
+
     text-align: center;
     /*font-size: 2em;*/
     font-size: 6vh;
