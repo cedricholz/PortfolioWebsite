@@ -57,13 +57,6 @@ export default class TooLow extends React.Component {
                                 maintainable,
                                 and readable code.</h3>
 
-                            {/*<p>Meticulously working on the code details, I trained myself to find mistakes and to develop*/}
-                            {/*ways to increase the speed, flow, and overall performance of the app. For example, once I*/}
-                            {/*had to make a text field for an EIN number that looked like "xx-xxxxx." After discovering*/}
-                            {/*that no built-in function for anchoring a hyphen existed and it had to be done manually, I*/}
-                            {/*took extra steps to assure that only numbers could be input, and the hyphen was dynamically*/}
-                            {/*added, deleted, and shifted accounting for every possibility of user correction using a*/}
-                            {/*switch of regular expressions.</p>*/}
                         </div>
 
                         <div className="MobileImages">

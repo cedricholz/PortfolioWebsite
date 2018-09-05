@@ -17,6 +17,7 @@ import {BrowserRouter} from 'react-router-dom'
 import {Route} from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import McAfee from "./components/ProjectDirectory/McAfee/McAfee";
+import Radii from "./components/ProjectDirectory/Radii/Radii";
 
 const Home = () => (
     <div>
@@ -50,6 +51,8 @@ const Project = (projectName) => {
             return <SQLFramework/>;
         case 'TimeCapsule':
             return <TimeCapsule/>;
+        case 'Radii':
+            return <Radii/>;
         default:
             return ""
     }
@@ -69,6 +72,7 @@ class App extends Component {
                     <Route path="/dashclass" component={() => Project('DashClass')}/>
                     <Route path="/mcafeebot" component={() => Project('McAfee')}/>
                     <Route path="/timecapsule" component={() => Project('TimeCapsule')}/>
+                    <Route path="/radii" component={() => Project('Radii')}/>
                     <Route path="/holdings" component={() => Project('Holdings')}/>
                     <Route path="/canlauncher" component={() => Project('CanLauncher')}/>
                     <Route path="/bearmaps" component={() => Project('BearMaps')}/>

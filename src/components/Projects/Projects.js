@@ -13,6 +13,10 @@ export default class Projects extends React.Component {
                 <SectionHeader title={"PROJECTS"}/>
                 <div className="Projects">
 
+                    <ProjectTile imageName={'radii.png'}
+                                 projectName={'Radii'} url={'/radii'}
+                                 languages={['React-Native']}/>
+
                     <ProjectTile imageName={'berkeley.png'}
                                  projectName={'Time Capsule'} url={'/timecapsule'}
                                  languages={['Android']}/>
@@ -24,14 +28,15 @@ export default class Projects extends React.Component {
                                  languages={['Python']}
                     />
 
-                    <ProjectTile imageName={'dashthumb.png'} projectName={'Dash Class'} url={'/dashclass'}
-                                 languages={['React']}/>
-
 
                     <ProjectTile imageName={'Portfolio.png'}
                                  projectName={'Holdings: An Automated Cryptocurrency Portfolio App'}
                                  url={'/holdings'}
                                  languages={['React-Native']}/>
+
+                    <ProjectTile imageName={'dashthumb.png'} projectName={'Dash Class'} url={'/dashclass'}
+                                 languages={['React']}/>
+
 
                     <ProjectTile imageName={'mcafeebot.png'}
                                  projectName={'McAfee Twitter Cryptocurrency Bot'} url={'/mcafeebot'}
