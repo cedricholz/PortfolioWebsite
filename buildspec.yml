@@ -10,4 +10,4 @@ phases:
       - yarn build
   post_build:
     commands:
-      - aws s3 sync dist/ s3://cedricholz-portfolio-website --delete
+      - aws s3 sync build/ s3://cedricholz-portfolio-website --delete
