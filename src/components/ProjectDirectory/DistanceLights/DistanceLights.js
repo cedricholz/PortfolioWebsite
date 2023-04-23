@@ -1,33 +1,29 @@
-import React from 'react';
+import React from "react"
 import "./distancelights.css"
 
-import ProjectBackground from '../../../components/ProjectBackground/ProjectBackground'
-import Projects from '../../../components/Projects/Projects'
+import ProjectBackground from "../../../components/ProjectBackground/ProjectBackground"
+import Projects from "../../../components/Projects/Projects"
 import GithubShare from "../../../components/GithubShare/GithubShare"
-import semiconnected from '../../../images/semiconnected.jpg'
-import connectingbuttons from '../../../images/connectingbuttons.jpg'
-import Firebase from '../../../images/Firebase.jpg'
-import completed from '../../../images/completed.jpg'
-
+import {ASSETS_BASE_URL} from "../../../constants"
 
 export default class DistanceLights extends React.Component {
 
     render() {
-        const deviceWidth = window.innerWidth;
-        let vidWidth = "560";
-        let vidHeight = "315";
+        const deviceWidth = window.innerWidth
+        let vidWidth = "560"
+        let vidHeight = "315"
 
         if (deviceWidth < 600) {
-            vidWidth = "280";
-            vidHeight = "auto";
+            vidWidth = "280"
+            vidHeight = "auto"
         }
 
         return (
             <div className="DistanceLights">
 
                 <ProjectBackground projectName={"Raspberry Pi WIFI Distance Lights"}
-                                   backgroundColor={'linear-gradient(to top right, #00b09b, #96c93d)'}
-                                   languages={['Python']}/>
+                                   backgroundColor={"linear-gradient(to top right, #00b09b, #96c93d)"}
+                                   languages={["Python"]}/>
                 <div className="TextBlock">
 
                     <h2>
@@ -41,7 +37,8 @@ export default class DistanceLights extends React.Component {
                         are in the world
                         .
                     </h3>
-                    <iframe title="DistanceLights" width={vidWidth} height={vidHeight} src="https://www.youtube.com/embed/4xsF01WRymI"
+                    <iframe title="DistanceLights" width={vidWidth} height={vidHeight}
+                            src="https://www.youtube.com/embed/4xsF01WRymI"
                             frameBorder="0"
                             allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
@@ -55,7 +52,7 @@ export default class DistanceLights extends React.Component {
                     <h3>I'm blue, my sister is purple, and my mom and dad are orange and green.</h3>
 
 
-                    <img alt="" className="Image" src={semiconnected}/>
+                    <img alt="" className="Image" src={`${ASSETS_BASE_URL}semiconnected.jpg`}/>
                     <h3>
 
                         Fitting the LED wires through a hole, I drilled through the bottom of the glass, to the
@@ -65,19 +62,19 @@ export default class DistanceLights extends React.Component {
                     </h3>
 
 
-                    <img alt="" className="Image"  src={connectingbuttons}/>
+                    <img alt="" className="Image" src={`${ASSETS_BASE_URL}connectingbuttons.jpg`}/>
                     <h3>
                         Connecting the buttons to the board
                     </h3>
 
 
-                    <img alt="" className="Image"  src={Firebase}/>
+                    <img alt="" className="Image" src={`${ASSETS_BASE_URL}Firebase.jpg`}/>
                     <h3>
                         The structure inside the Firebase Realtime Database to keep
                         track of whose lights have been turned on and when.
                     </h3>
 
-                    <img alt="" className="Image"  src={completed}/>
+                    <img alt="" className="Image" src={`${ASSETS_BASE_URL}completed.jpg`}/>
 
                     <h3>
                         Completed Raspberry Pi WIFI Distance Lights
@@ -85,7 +82,7 @@ export default class DistanceLights extends React.Component {
 
 
                 </div>
-                <GithubShare url={'https://github.com/cedricholz/Pi-Wifi-Distance-Lights'}/>
+                <GithubShare url={"https://github.com/cedricholz/Pi-Wifi-Distance-Lights"}/>
                 <Projects mainPage={false}/>
             </div>
         )

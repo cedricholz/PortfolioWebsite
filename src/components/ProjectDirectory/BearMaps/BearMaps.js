@@ -1,15 +1,10 @@
-import React from 'react';
+import React from "react"
 import "./bearmaps.css"
 
-import ProjectBackground from '../../../components/ProjectBackground/ProjectBackground'
-import Projects from '../../../components/Projects/Projects'
+import ProjectBackground from "../../../components/ProjectBackground/ProjectBackground"
+import Projects from "../../../components/Projects/Projects"
 import GithubShare from "../../../components/GithubShare/GithubShare"
-import qt from '../../../images/qt.png'
-import quadtree from '../../../images/quadtree.png'
-import Astar from '../../../images/Astar.gif'
-import trie from '../../../images/trie.jpg'
-import bearmaps from '../../../images/bearmaps.png'
-import dijkstras from '../../../images/dijkstras.gif'
+import {ASSETS_BASE_URL} from "../../../constants"
 
 export default class BearMaps extends React.Component {
 
@@ -18,8 +13,8 @@ export default class BearMaps extends React.Component {
             <div className="DashClass">
 
                 <ProjectBackground projectName={"Bear Maps"}
-                                   backgroundColor={'linear-gradient(to top right, #E44D26, #F16529)'}
-                                   languages={['Java']}/>
+                                   backgroundColor={"linear-gradient(to top right, #E44D26, #F16529)"}
+                                   languages={["Java"]}/>
                 <div className="TextBlock">
 
                     <h2><b>Google Maps for Berkeley</b>
@@ -32,7 +27,7 @@ export default class BearMaps extends React.Component {
                         concatenation of their parent's name, and their quadrant, as shown below.
                     </h3>
 
-                    <img alt="" className="Image" src={qt}/>
+                    <img alt="" className="Image" src={`${ASSETS_BASE_URL}qt.png`}/>
 
 
                     <h3>When the program starts, it fills a "Quad-Tree" data structure with nodes corresponding to every
@@ -43,7 +38,7 @@ export default class BearMaps extends React.Component {
                         many images are required to fill the camera view.</h3>
 
 
-                    <img alt="" className="Image" src={quadtree}/>
+                    <img alt="" className="Image" src={`${ASSETS_BASE_URL}quadtree.png`}/>
 
 
                     <h3> Then using the OpenStreetMap Database, I created a database of every place of interest and
@@ -55,10 +50,10 @@ export default class BearMaps extends React.Component {
 
                     <h2>Dijkstras</h2>
 
-                    <img alt="" className="Image" src={dijkstras}/>
+                    <img alt="" className="Image" src={`${ASSETS_BASE_URL}dijkstras.gif`}/>
 
                     <h2>A*</h2>
-                    <img alt="" className="Image" src={Astar}/>
+                    <img alt="" className="Image" src={`${ASSETS_BASE_URL}astar.gif`}/>
 
                     <h3>To finish the map I put all the place names into a Trie data structure, which creates a tree
                         whose nodes are the consecutive letters of words. When given part of a string, it will go down
@@ -67,14 +62,14 @@ export default class BearMaps extends React.Component {
                         search bar.</h3>
 
 
-                    <img alt="" className="Image" src={trie}/>
+                    <img alt="" className="Image" src={`${ASSETS_BASE_URL}trie.jpg`}/>
 
                     <h2>Bear Maps</h2>
 
-                    <img alt="" className="Image" src={bearmaps}/>
+                    <img alt="" className="Image" src={`${ASSETS_BASE_URL}bearmaps.png`}/>
 
                 </div>
-                <GithubShare url={'https://github.com/cedricholz/Bear-Maps'}/>
+                <GithubShare url={"https://github.com/cedricholz/Bear-Maps"}/>
                 <Projects mainPage={false}/>
             </div>
         )

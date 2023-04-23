@@ -1,27 +1,25 @@
-import React from 'react';
+import React from "react"
 import "./skillsstyles.css"
 
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade"
 
-import BarGraph from './BarGraph'
-import Technologies from "./Technologies";
+import BarGraph from "./BarGraph"
+import Technologies from "./Technologies"
 
-
-export default class Skills extends React.Component {
-
-    render() {
+const Skills = () => {
 
 
-        return (
-            <div className="AllSkills">
-                <Fade up>
-                    <BarGraph/>
-                </Fade>
+    return (
+        <div className="AllSkills">
+            <Fade up>
+                <BarGraph/>
+            </Fade>
 
-                <Fade up>
-                    <Technologies/>
-                </Fade>
-            </div>
-        )
-    }
+            <Fade up>
+                <Technologies/>
+            </Fade>
+        </div>
+    )
+
 }
+export default Skills

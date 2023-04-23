@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 16
+  build:
+    commands:
+      - yarn install
+      - yarn build
+  post_build:
+    commands:
+      - aws s3 sync dist/ s3://cedricholz-portfolio-website --delete

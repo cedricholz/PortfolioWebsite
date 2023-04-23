@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from "react"
 
-import './App.css';
+import "./App.css"
 import HomePage from "./HomePage"
 import CryptoTrader from "./components/ProjectDirectory/CryptoTrader/CryptoTrader"
 import DashClass from "./components/ProjectDirectory/DashClass/DashClass"
@@ -13,11 +13,10 @@ import SQLFramework from "./components/ProjectDirectory/SQLFramework/SQLFramewor
 import DistanceLights from "./components/ProjectDirectory/DistanceLights/DistanceLights"
 import TimeCapsule from "./components/ProjectDirectory/TimeCapsule/TimeCapsule"
 
-import {BrowserRouter} from 'react-router-dom'
-import {Route} from 'react-router-dom';
-import ScrollToTop from './components/ScrollToTop/ScrollToTop'
-import McAfee from "./components/ProjectDirectory/McAfee/McAfee";
-import Radii from "./components/ProjectDirectory/Radii/Radii";
+import {BrowserRouter, Route} from "react-router-dom"
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
+import McAfee from "./components/ProjectDirectory/McAfee/McAfee"
+import Radii from "./components/ProjectDirectory/Radii/Radii"
 
 const Home = () => (
     <div>
@@ -25,65 +24,63 @@ const Home = () => (
             <HomePage/>
         </div>
     </div>
-);
+)
 
 const Project = (projectName) => {
     switch (projectName) {
-        case 'Crypto':
-            return <CryptoTrader/>;
-        case 'DistanceLights':
-            return <DistanceLights/>;
-        case 'DashClass':
-            return <DashClass/>;
-        case 'McAfee':
-            return <McAfee/>;
-        case 'Holdings':
-            return <Holdings/>;
-        case 'CanLauncher':
-            return <CanLauncher/>;
-        case 'BearMaps':
-            return <BearMaps/>;
-        case 'Cpu':
-            return <CPU/>;
-        case 'TowerDefense':
-            return <TowerDefense/>;
-        case 'SqlFramework':
-            return <SQLFramework/>;
-        case 'TimeCapsule':
-            return <TimeCapsule/>;
-        case 'Radii':
-            return <Radii/>;
+        case "Crypto":
+            return <CryptoTrader/>
+        case "DistanceLights":
+            return <DistanceLights/>
+        case "DashClass":
+            return <DashClass/>
+        case "McAfee":
+            return <McAfee/>
+        case "Holdings":
+            return <Holdings/>
+        case "CanLauncher":
+            return <CanLauncher/>
+        case "BearMaps":
+            return <BearMaps/>
+        case "Cpu":
+            return <CPU/>
+        case "TowerDefense":
+            return <TowerDefense/>
+        case "SqlFramework":
+            return <SQLFramework/>
+        case "TimeCapsule":
+            return <TimeCapsule/>
+        case "Radii":
+            return <Radii/>
         default:
             return ""
     }
-};
-
-
-class App extends Component {
-    render() {
-        return (
-            <BrowserRouter>
-                <div className="App">
-                    <Route exact={true} path="/" component={Home}/>
-                    <ScrollToTop>
-                        <Route path="/cryptotrader" component={() => Project('Crypto')}/>
-                    </ScrollToTop>
-                    <Route path="/distancelights" component={() => Project('DistanceLights')}/>
-                    <Route path="/dashclass" component={() => Project('DashClass')}/>
-                    <Route path="/mcafeebot" component={() => Project('McAfee')}/>
-                    <Route path="/timecapsule" component={() => Project('TimeCapsule')}/>
-                    <Route path="/radii" component={() => Project('Radii')}/>
-                    <Route path="/holdings" component={() => Project('Holdings')}/>
-                    <Route path="/canlauncher" component={() => Project('CanLauncher')}/>
-                    <Route path="/bearmaps" component={() => Project('BearMaps')}/>
-                    <Route path="/cpu" component={() => Project('Cpu')}/>
-                    <Route path="/towerdefense" component={() => Project('TowerDefense')}/>
-                    <Route path="/sqlframework" component={() => Project('SqlFramework')}/>
-
-                </div>
-            </BrowserRouter>
-        );
-    }
 }
 
-export default App;
+
+const App = () => {
+    return (
+        <BrowserRouter>
+            <div className="App">
+                <Route exact={true} path="/" component={Home}/>
+                <ScrollToTop>
+                    <Route path="/cryptotrader" component={() => Project("Crypto")}/>
+                </ScrollToTop>
+                <Route path="/distancelights" component={() => Project("DistanceLights")}/>
+                <Route path="/dashclass" component={() => Project("DashClass")}/>
+                <Route path="/mcafeebot" component={() => Project("McAfee")}/>
+                <Route path="/timecapsule" component={() => Project("TimeCapsule")}/>
+                <Route path="/radii" component={() => Project("Radii")}/>
+                <Route path="/holdings" component={() => Project("Holdings")}/>
+                <Route path="/canlauncher" component={() => Project("CanLauncher")}/>
+                <Route path="/bearmaps" component={() => Project("BearMaps")}/>
+                <Route path="/cpu" component={() => Project("Cpu")}/>
+                <Route path="/towerdefense" component={() => Project("TowerDefense")}/>
+                <Route path="/sqlframework" component={() => Project("SqlFramework")}/>
+
+            </div>
+        </BrowserRouter>
+    )
+}
+
+export default App

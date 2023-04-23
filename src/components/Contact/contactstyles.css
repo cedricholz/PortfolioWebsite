@@ -1,24 +1,24 @@
-.Contact{
+.Contact {
 
 }
 
-.Info{
+.Info {
 
     padding-bottom: 50px;
 }
 
 
-.Resume{
+.Resume {
     color: white;
     font-size: 3vh;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.Resume:hover{
+.Resume:hover {
     color: white;
 }
 
-.ContactLinks{
+.ContactLinks {
 
     margin-left: 5px;
     margin-right: 5px;

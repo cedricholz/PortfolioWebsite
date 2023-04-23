@@ -1,19 +1,10 @@
-import React from 'react';
+import React from "react"
 import "./timecapsule.css"
 
-import ProjectBackground from '../../../components/ProjectBackground/ProjectBackground'
-import Projects from '../../../components/Projects/Projects'
+import ProjectBackground from "../../../components/ProjectBackground/ProjectBackground"
+import Projects from "../../../components/Projects/Projects"
 import GithubShare from "../../../components/GithubShare/GithubShare"
-import berkeley from '../../../images/berkeley.png'
-import box from '../../../images/box.png'
-import createbox from '../../../images/createbox.png'
-import inmessage from '../../../images/inmessage.png'
-import messages from '../../../images/messages.png'
-import myboxes from '../../../images/myboxes.png'
-import nearbyboxes from '../../../images/nearbyboxes.png'
-
-import insidecomment from '../../../images/insidecomment.png'
-import photogallery from '../../../images/photogallery.png'
+import {ASSETS_BASE_URL} from "../../../constants"
 
 
 export default class TimeCapsule extends React.Component {
@@ -23,7 +14,8 @@ export default class TimeCapsule extends React.Component {
             <div className="DashClass">
 
                 <ProjectBackground projectName={"Time Capsule"}
-                                   backgroundColor={'linear-gradient(to top right, #FF512F, #F09819)'} languages={['Android']}/>
+                                   backgroundColor={"linear-gradient(to top right, #FF512F, #F09819)"}
+                                   languages={["Android"]}/>
                 <div className="TextBlock">
                     <h2>An app that allows users to digitally GeoCache memories and information as comments and photos,
                         stored privately or shared with the
@@ -32,43 +24,44 @@ export default class TimeCapsule extends React.Component {
 
                     <div className="AllAndroidImages">
                         <div className="AndroidImage">
-                            <img alt="" className="AndroidImage Image" src={berkeley}/>
+                            <img alt="" className="AndroidImage Image" src={`${ASSETS_BASE_URL}berkeley.png`}/>
                             <h3>Main screen where you can view boxes around the world where people stored their
                                 content that can be accessed by walking to them</h3>
                         </div>
-                        <div className="AndroidImage"><img alt="" className="AndroidImage Image" src={createbox}/>
+                        <div className="AndroidImage"><img alt="" className="AndroidImage Image"
+                                                           src={`${ASSETS_BASE_URL}createbox.png`}/>
                             <h3>Box Creation</h3>
                         </div>
                         <div className="AndroidImage">
-                            <img alt="" className="AndroidImage Image" src={box}/>
+                            <img alt="" className="AndroidImage Image" src={`${ASSETS_BASE_URL}box.png`}/>
                             <h3>Inside a Box comments can be voted on</h3>
                         </div>
                         <div className="AndroidImage">
-                            <img alt="" className="AndroidImage" src={insidecomment}/>
+                            <img alt="" className="AndroidImage" src={`${ASSETS_BASE_URL}insidecomment.png`}/>
                             <h3>Comments can be tapped to open new threads</h3>
                         </div>
 
                         <div className="AndroidImage">
-                            <img alt="" className="AndroidImage Image" src={photogallery}/>
+                            <img alt="" className="AndroidImage Image" src={`${ASSETS_BASE_URL}photogallery.png`}/>
                             <h3>A photo gallery can be opened to view all images inside a box</h3>
                         </div>
 
                         <div className="AndroidImage">
-                            <img alt="" className="AndroidImage Image" src={inmessage}/>
+                            <img alt="" className="AndroidImage Image" src={`${ASSETS_BASE_URL}inmessage.png`}/>
                             <h3>Tap someone's name to privately message them</h3>
                         </div>
                         <div className="AndroidImage">
-                            <img alt="" className="AndroidImage Image" src={messages}/>
+                            <img alt="" className="AndroidImage Image" src={`${ASSETS_BASE_URL}messages.png`}/>
                             <h3>All messages</h3>
                         </div>
 
                         <div className="AndroidImage">
-                            <img alt="" className="AndroidImage Image" src={myboxes}/>
+                            <img alt="" className="AndroidImage Image" src={`${ASSETS_BASE_URL}myboxes.png`}/>
                             <h3>View of all boxes the user has created</h3>
                         </div>
 
                         <div className="AndroidImage">
-                            <img alt="" className="AndroidImage Image" src={nearbyboxes}/>
+                            <img alt="" className="AndroidImage Image" src={`${ASSETS_BASE_URL}nearbyboxes.png`}/>
                             <h3>All nearby boxes, their distances and how many photos and comments are contained inside
                                 them</h3>
                         </div>
@@ -77,7 +70,7 @@ export default class TimeCapsule extends React.Component {
 
 
                 </div>
-                <GithubShare url={'https://github.com/cedricholz/TimeCapsule'}/>
+                <GithubShare url={"https://github.com/cedricholz/TimeCapsule"}/>
                 <Projects mainPage={false}/>
             </div>
         )

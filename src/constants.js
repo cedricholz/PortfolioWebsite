@@ -1,0 +1,1 @@
+export const ASSETS_BASE_URL = "https://cedricholz-assets.s3.us-east-2.amazonaws.com/"

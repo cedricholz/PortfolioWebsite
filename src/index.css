@@ -7,18 +7,18 @@ body {
 h1 {
     font-size: 1.2em;
     /*color: #2F4F4F;*/
-    color:white;
+    color: white;
 }
 
 h2 {
     font-size: 1.8em;
     /*color: #2F4F4F;*/
     /*color: #A5A49E;*/
-    color:white;
+    color: white;
     text-decoration: none;
 }
 
-h3{
+h3 {
     color: #B0BEC5;
 }
 
@@ -34,10 +34,10 @@ h3{
     width: auto;
     height: 70px;
 }
-.Contact{
+
+.Contact {
     text-align: center;
 }
-
 
 
 .TextBlock {
@@ -46,7 +46,7 @@ h3{
     width: 70%;
 }
 
-.Link{
+.Link {
     text-decoration: none;
 
 }

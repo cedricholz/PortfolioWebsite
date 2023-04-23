@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react"
 import "./bannerstyles.css"
-import Typist from 'react-typist';
-import ReactRevealText from "react-reveal-text";
+import Typist from "react-typist"
+import ReactRevealText from "react-reveal-text"
 
 
 export default class Banner extends React.Component {
@@ -10,18 +10,18 @@ export default class Banner extends React.Component {
     done = () => {
         this.setState({typing: false}, () => {
             this.setState({typing: true})
-        });
-    };
+        })
+    }
 
     constructor() {
-        super();
-        this.state = {show: false, typing: true};
+        super()
+        this.state = {show: false, typing: true}
     }
 
     componentDidMount() {
         setTimeout(() => {
-            this.setState({show: true});
-        }, 5000);
+            this.setState({show: true})
+        }, 5000)
     }
 
     render() {
@@ -41,7 +41,7 @@ export default class Banner extends React.Component {
                             <Typist cursor={{
                                 show: true,
                                 blink: true,
-                                element: '|',
+                                element: "|",
                                 hideWhenDone: true,
                                 hideWhenDoneDelay: 0,
                             }}>

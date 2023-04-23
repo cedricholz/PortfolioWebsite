@@ -25,7 +25,6 @@
 }
 
 
-
 .SmallText {
     font-size: 2.5vh;
     padding-top: 30px;
@@ -49,7 +48,7 @@
     color: white;
 }
 
-.TypedText{
+.TypedText {
     display: flex;
     flex-direction: row;
     padding-top: 10px;

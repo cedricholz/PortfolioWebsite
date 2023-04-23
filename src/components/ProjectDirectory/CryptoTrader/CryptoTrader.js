@@ -1,13 +1,11 @@
-import React from 'react';
+import React from "react"
 import "./cryptotrader.css"
 
-import ProjectBackground from '../../../components/ProjectBackground/ProjectBackground'
-import Keltnerchannels from "../../../images/Keltnerchannels.png"
-import reddit from "../../../images/reddit.png"
-import pi from "../../../images/pi.jpg"
-import Projects from '../../../components/Projects/Projects'
+import ProjectBackground from "../../../components/ProjectBackground/ProjectBackground"
+import Projects from "../../../components/Projects/Projects"
 
 import GithubShare from "../../../components/GithubShare/GithubShare"
+import {ASSETS_BASE_URL} from "../../../constants"
 
 export default class CryptoTrader extends React.Component {
 
@@ -16,7 +14,8 @@ export default class CryptoTrader extends React.Component {
             <div className="CryptoTrader">
 
                 <ProjectBackground projectName={"Crypto Trading Algorithm and Reddit Scraper / Data Miner"}
-                                   backgroundColor={'linear-gradient(to top right,#ad5389, #3c1053)'} languages={['Python']}/>
+                                   backgroundColor={"linear-gradient(to top right,#ad5389, #3c1053)"}
+                                   languages={["Python"]}/>
                 <div className="TextBlock">
                     <h2>A series of strategies coded in Python to buy and sell Cryptocurrencies</h2>
                     <h3>We first began with a basic strategy to construct the Trader framework with functions for
@@ -41,7 +40,7 @@ export default class CryptoTrader extends React.Component {
                         to
                         below the bottom line.</h3>
 
-                    <img alt="" className="WideImage" src={Keltnerchannels}/>
+                    <img alt="" className="WideImage" src={`${ASSETS_BASE_URL}Keltnerchannels.png`}/>
 
                     <h3>For our third strategy, we noticed that Reddit.com/r/CryptoCurrency would often mention coins
                         days or
@@ -59,16 +58,16 @@ export default class CryptoTrader extends React.Component {
                         before selling.</h3>
 
 
-                    <img alt="" src={reddit} className="RedditImage"/>
+                    <img alt="" src={`${ASSETS_BASE_URL}reddit.png`} className="RedditImage"/>
 
                     {/*<h2>Reddit r/Cryptocurrency Data Updated Hourly (When Pi is Running)</h2>*/}
 
                     <h2>Headless Raspberry Pi running the Algorithm</h2>
 
-                    <img alt="" src={pi} className="WideImage"/>
+                    <img alt="" src={`${ASSETS_BASE_URL}pi.jpg`} className="WideImage"/>
                 </div>
 
-                <GithubShare url={'https://github.com/cedricholz/Python-Cryptocurrency-Scraper-Trader'}/>
+                <GithubShare url={"https://github.com/cedricholz/Python-Cryptocurrency-Scraper-Trader"}/>
                 <Projects mainPage={false}/>
             </div>
         )

@@ -6,6 +6,7 @@
     /*justify-content: center;*/
 
 }
+
 .ProjectTitle {
     font-weight: bolder;
     font-size: 7vh;
@@ -14,13 +15,13 @@
     text-align: center;
 }
 
-.Nav{
+.Nav {
     position: absolute;
     width: 100%;
-    top:0;
+    top: 0;
 }
 
-.MovingText{
+.MovingText {
     /*position: absolute;*/
     /*top: 320px;*/
     /*left: 50%;*/

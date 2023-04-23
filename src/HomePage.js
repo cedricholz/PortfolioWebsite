@@ -1,62 +1,71 @@
-import React, {Component} from 'react';
+import React, {useEffect, useRef, useState} from "react"
 
-import './App.css';
+import "./App.css"
 import Navigation from "./components/Navigation/Navigation"
 import Experience from "./components/Experience/Experience"
 import Banner from "./components/Banner/Banner"
 import SectionHeader from "./components/SectionHeader/SectionHeader"
 import Projects from "./components/Projects/Projects"
 
-import RelevantCourses from "./components/RelevantCourses/RelevantCourses";
-import ucberkeleyseal from "./images/ucberkeleyseal.png"
+import RelevantCourses from "./components/RelevantCourses/RelevantCourses"
 import Skills from "./components/Skills/Skills"
-import scrollToComponent from 'react-scroll-to-component';
-import BurgerMenu from 'react-burger-menu';
-import {Fade} from "react-reveal";
-import Contact from "./components/Contact/Contact";
+import BurgerMenu from "react-burger-menu"
+import Contact from "./components/Contact/Contact"
+import Education from "./Education/Education"
 
-class MenuWrap extends Component {
-
-    render() {
-        return (
-            <div className={this.props.side}>
-                {this.props.children}
-            </div>
-        );
+const MenuWrap = (
+    {
+        side, children,
     }
+) => {
+
+    return (
+        <div className={side}>
+            {children}
+        </div>
+    )
+
 }
 
-export default class HomePage extends Component {
+const HomePage = (
+    {
+        side, children,
+    }
+) => {
+    const [open, setOpen] = useState(false)
+    const experienceRef = useRef()
+    const projectsRef = useRef()
+    const educationRef = useRef()
+    const coursesRef = useRef()
+    const skillsRef = useRef()
+    const contactRef = useRef()
 
-    scrollToComponents = (componentName) => {
-        this.setState({open: false});
+    const scrollToComponents = (componentName) => {
         switch (componentName) {
-            case 'EXPERIENCE':
-                scrollToComponent(this.Experience, {offset: 0, align: 'top', duration: 1500});
-                break;
-            case 'PROJECTS':
-                scrollToComponent(this.Projects, {offset: 0, align: 'top', duration: 1500});
-                break;
-            case 'EDUCATION':
-                scrollToComponent(this.Education, {offset: 0, align: 'top', duration: 1500});
-                break;
-            case 'COURSES':
-                scrollToComponent(this.Courses, {offset: 0, align: 'top', duration: 1500});
-                break;
-            case 'SKILLS':
-                scrollToComponent(this.Skills, {offset: 0, align: 'top', duration: 1500});
-                break;
-            case 'CONTACT':
-                scrollToComponent(this.Contact, {offset: 0, align: 'top', duration: 1500});
-                break;
+            case "EXPERIENCE":
+                experienceRef.current.scrollIntoView({behavior: "smooth"})
+                break
+            case "PROJECTS":
+                projectsRef.current.scrollIntoView({behavior: "smooth"})
+                break
+            case "EDUCATION":
+                educationRef.current.scrollIntoView({behavior: "smooth"})
+                break
+            case "COURSES":
+                coursesRef.current.scrollIntoView({behavior: "smooth"})
+                break
+            case "SKILLS":
+                skillsRef.current.scrollIntoView({behavior: "smooth"})
+                break
+            case "CONTACT":
+                contactRef.current.scrollIntoView({behavior: "smooth"})
+                break
             default:
                 break
         }
-    };
+    }
 
-    constructor(props) {
-        super(props);
-        this.state = {open: false};
+    useEffect(() => {
         const myName = "\n" +
             " __   ___  __   __     __  \n" +
             "/  ` |__  |  \\ |__) | /  ` \n" +
@@ -65,123 +74,94 @@ export default class HomePage extends Component {
             "      __       __          \n" +
             "|__| /  \\ |     /          \n" +
             "|  | \\__/ |___ /_          \n" +
-            "                           \n";
+            "                           \n"
         console.log(myName)
-    }
+        setOpen(false)
+    }, [])
 
-    getMenu() {
-        const Menu = BurgerMenu['pushRotate'];
+    const getMenu = () => {
+        const Menu = BurgerMenu["pushRotate"]
         const items = [
             <h2 key="0"><i className="fa fa-fw fa-inbox fa-2x"/><span>Navigation</span></h2>,
 
-            <div key="1" className="MenuContainer" onClick={() => this.scrollToComponents("EXPERIENCE")}>
+            <div key="1" className="MenuContainer" onClick={() => scrollToComponents("EXPERIENCE")}>
                 <span className="MenuItem">EXPERIENCE</span>
             </div>,
-            <div key="2" className="MenuContainer" onClick={() => this.scrollToComponents("PROJECTS")}>
+            <div key="2" className="MenuContainer" onClick={() => scrollToComponents("PROJECTS")}>
                 <span className="MenuItem">PROJECTS</span>
             </div>,
-            <div key="3" className="MenuContainer" onClick={() => this.scrollToComponents("EDUCATION")}>
+            <div key="3" className="MenuContainer" onClick={() => scrollToComponents("EDUCATION")}>
                 <span className="MenuItem">EDUCATION</span>
             </div>,
-            <div key="4" className="MenuContainer" onClick={() => this.scrollToComponents("COURSES")}>
+            <div key="4" className="MenuContainer" onClick={() => scrollToComponents("COURSES")}>
                 <span className="MenuItem">COURSES</span>
             </div>,
-            <div key="5" className="MenuContainer" onClick={() => this.scrollToComponents("SKILLS")}>
+            <div key="5" className="MenuContainer" onClick={() => scrollToComponents("SKILLS")}>
                 <span className="MenuItem">SKILLS</span>
             </div>,
-            <div key="6" className="MenuContainer" onClick={() => this.scrollToComponents("CONTACT")}>
+            <div key="6" className="MenuContainer" onClick={() => scrollToComponents("CONTACT")}>
                 <span className="MenuItem">CONTACT</span>
             </div>,
 
-        ];
+        ]
 
         return (
-            <MenuWrap wait={20} side={'right'}>
-                <Menu isOpen={this.state.open} id={'pushRotate'} pageWrapId={'page-wrap'}
-                      outerContainerId={'outer-container'} right>
+            <MenuWrap wait={20} side={"right"}>
+                <Menu isOpen={open} id={"pushRotate"} pageWrapId={"page-wrap"}
+                      outerContainerId={"outer-container"} right>
                     {items}
                 </Menu>
             </MenuWrap>
-        );
+        )
 
     }
 
-    render() {
+    return (
 
-        return (
+        <div className="App">
 
-            <div className="App">
-
-                <div id="outer-container">
-                    {this.getMenu()}
-                    <main id="page-wrap">
-                        <header className="header">
-                            <Navigation/>
-                            <Banner/>
-                        </header>
-                    </main>
-                </div>
-
-                <section ref={(section) => {
-                    this.Experience = section;
-                }}>
-                    <SectionHeader id={"EXPERIENCE"} title={"EXPERIENCE"}/>
-                </section>
-
-                <Experience/>
-
-                <section ref={(section) => {
-                    this.Projects = section;
-                }}>
-                    <Projects mainPage={true}/>
-                </section>
-
-                <section ref={(section) => {
-                    this.Education = section;
-                }}>
-                    <SectionHeader title={"EDUCATION"}/>
-                </section>
-
-                <Fade up>
-                    <div className="CenterText">
-                        <a href={"https://www.berkeley.edu/"} target="_blank" rel="noopener noreferrer">
-                            <img alt="" src={ucberkeleyseal} className="BerkeleySeal"/>
-                        </a>
-
-                        <h2 className="School">University of California, Berkeley</h2>
-                        <h3>December 2018</h3>
-                        <h3 className="ListItem">B.S. Electrical Engineering and Computer Science</h3>
-                    </div>
-                </Fade>
-
-                <section ref={(section) => {
-                    this.Courses = section;
-                }}>
-                    <SectionHeader title={"RELEVANT COURSES"}/>
-                </section>
-
-
-                <RelevantCourses/>
-
-                <section ref={(section) => {
-                    this.Skills = section;
-                }}>
-                    <SectionHeader title={"SKILLS"}/>
-                </section>
-
-
-                <Skills/>
-
-                <section ref={(section) => {
-                    this.Contact = section;
-                }}>
-
-                    <Contact/>
-                </section>
-
-
+            <div id="outer-container">
+                {getMenu()}
+                <main id="page-wrap">
+                    <header className="header">
+                        <Navigation/>
+                        <Banner/>
+                    </header>
+                </main>
             </div>
 
-        );
-    }
+
+            <SectionHeader ref={experienceRef} id={"EXPERIENCE"} title={"EXPERIENCE"}/>
+
+            <Experience/>
+
+
+            <Projects ref={projectsRef} mainPage={true}/>
+
+
+            <SectionHeader ref={educationRef} title={"EDUCATION"}/>
+
+
+            <Education/>
+
+            <SectionHeader ref={coursesRef} title={"RELEVANT COURSES"}/>
+
+
+            <RelevantCourses/>
+
+
+            <SectionHeader ref={skillsRef} title={"SKILLS"}/>
+
+
+            <Skills/>
+
+
+            <Contact ref={contactRef}/>
+
+
+        </div>
+
+    )
+
 }
+export default HomePage

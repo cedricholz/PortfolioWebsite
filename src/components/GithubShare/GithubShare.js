@@ -1,18 +1,19 @@
-import React from 'react';
+import React from "react"
 import "./githubsharestyles.css"
-import github from "../../images/largegithub.png"
+import {ASSETS_BASE_URL} from "../../constants"
 
-export default class GithubShare extends React.Component {
+const GithubShare = (
+    {customTitle, url}
+) => {
 
-    render() {
-        const {customTitle} = this.props;
-        return (
-            <div className="GithubShare">
-                <a href={this.props.url} className="Link" target="_blank" rel="noopener noreferrer">
-                    <h2>{customTitle?customTitle:'Project Code On Github'}</h2>
-                    <img alt="" src={github}/>
-                </a>
-            </div>
-        )
-    }
+    return (
+        <div className="GithubShare">
+            <a href={url} className="Link" target="_blank" rel="noopener noreferrer">
+                <h2>{customTitle ? customTitle : "Project Code On Github"}</h2>
+                <img alt="" src={`${ASSETS_BASE_URL}largegithub.png`}/>
+            </a>
+        </div>
+    )
+
 }
+export default GithubShare

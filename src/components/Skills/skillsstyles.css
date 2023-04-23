@@ -1,13 +1,13 @@
 
 .Technologies {
-margin-top: 6vh;
-text-align: center;
+    margin-top: 6vh;
+    text-align: center;
 }
 
 .Technology {
-height: 4.5vh;
-padding-left: 10px;
-width: auto;
+    height: 4.5vh;
+    padding-left: 10px;
+    width: auto;
 }
 
 .FullGraph {
@@ -35,7 +35,7 @@ width: auto;
 }
 
 .Bars {
-    text-align:center;
+    text-align: center;
 
 }
 
@@ -67,72 +67,72 @@ width: auto;
 
 }
 
-.SkillText{
+.SkillText {
 
 }
 
 
 /*.Skills {*/
-    /*display: flex;*/
-    /*flex-flow: row wrap;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*margin: auto;*/
+/*display: flex;*/
+/*flex-flow: row wrap;*/
+/*align-items: center;*/
+/*justify-content: center;*/
+/*margin: auto;*/
 /*}*/
 
 /*.Technologies {*/
-    /*margin-top: 6vh;*/
-    /*text-align: center;*/
+/*margin-top: 6vh;*/
+/*text-align: center;*/
 /*}*/
 
 /*.Technology {*/
-    /*height: 40px;*/
-    /*padding-left: 10px;*/
-    /*width: auto;*/
+/*height: 40px;*/
+/*padding-left: 10px;*/
+/*width: auto;*/
 /*}*/
 
 /*.FullGraph {*/
-    /*display: flex;*/
-    /*flex-flow: row wrap;*/
-    /*justify-content: center;*/
-    /*text-align: center;*/
+/*display: flex;*/
+/*flex-flow: row wrap;*/
+/*justify-content: center;*/
+/*text-align: center;*/
 /*}*/
 
 /*.YAxis {*/
-    /*width: 150px;*/
-    /*font-size: 1.95vh;*/
-    /*margin-top: -3%;*/
+/*width: 150px;*/
+/*font-size: 1.95vh;*/
+/*margin-top: -3%;*/
 /*}*/
 
 /*.YValue {*/
-    /*padding-bottom: .7vh;*/
-    /*padding-top: .7vh;*/
+/*padding-bottom: .7vh;*/
+/*padding-top: .7vh;*/
 /*}*/
 
 /*.BarsGraph {*/
-    /*height: 30vh;*/
+/*height: 30vh;*/
 /*}*/
 
 /*.Bars {*/
-    /*margin-top: auto;*/
+/*margin-top: auto;*/
 /*}*/
 
 /*.Bar {*/
-    /*display: inline-block;*/
-    /*width: 4%;*/
-    /*margin-left: 2.8vh;*/
-    /*margin-right: 2.8vh;*/
+/*display: inline-block;*/
+/*width: 4%;*/
+/*margin-left: 2.8vh;*/
+/*margin-right: 2.8vh;*/
 /*}*/
 
 /*.BarLine {*/
 
-    /*border-style: solid;*/
-    /*border-bottom: black;*/
+/*border-style: solid;*/
+/*border-bottom: black;*/
 /*}*/
 
 /*.BarImage {*/
-    /*height: 7vh;*/
-    /*padding-bottom: 10px;*/
+/*height: 7vh;*/
+/*padding-bottom: 10px;*/
 /*}*/
 
 /*.AllSkills {*/

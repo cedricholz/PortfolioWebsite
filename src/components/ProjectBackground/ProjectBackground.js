@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react"
 import "./projectbackgroundstyles.css"
-import Navigation from '../../components/Navigation/Navigation'
-import Fade from 'react-reveal/Fade';
-import TextLoop from 'react-text-loop';
+import Navigation from "../../components/Navigation/Navigation"
+import Fade from "react-reveal/Fade"
+import TextLoop from "react-text-loop"
 
 export default class ProjectBackground extends React.Component {
 
     render() {
-        const {languages} = this.props;
+        const {languages} = this.props
 
         const languageJsx = languages.map((language) =>
             <span>{language}</span>
-        );
+        )
 
         return (
             <div>

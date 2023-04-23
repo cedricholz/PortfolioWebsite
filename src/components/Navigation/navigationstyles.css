@@ -4,16 +4,15 @@
     font-size: 24px;
 }
 
-.Resume{
+.Resume {
     color: white;
     font-size: 3vh;
 }
 
-.Pad{
+.Pad {
     padding-left: 1.2vh;
     padding-right: 1.2vh;
 }
-
 
 
 .NavigationBar {
@@ -42,7 +41,7 @@
 .NavigationButtons {
     color: #183D6E;
     font-size: 15px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 

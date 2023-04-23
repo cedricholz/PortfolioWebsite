@@ -1,20 +1,19 @@
-import React from 'react';
+import React from "react"
 import "./experiencestyles.css"
 
 import TooLow from "./TooLow"
 import Scoutible from "./Scoutible"
 
 
-export default class Experience extends React.Component {
+const Experience = React.forwardRef(({title}, ref) => {
+    return (
+        <div className="Experience">
 
-    render() {
-        return (
-            <div className="Experience">
+            <Scoutible/>
+            <TooLow/>
 
-                <Scoutible/>
-                <TooLow/>
+        </div>
+    )
+})
 
-            </div>
-        )
-    }
-}
+export default Experience
