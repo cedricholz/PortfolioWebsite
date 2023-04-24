@@ -12,7 +12,6 @@ const ProjectBackground = (
     }
 ) => {
 
-
         const languageJsx = languages.map((language) =>
             <span>{language}</span>
         )

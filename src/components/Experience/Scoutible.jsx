@@ -14,7 +14,7 @@ const Scoutible = (
     return (
 
         <div className="Scoutible">
-            <Fade right>
+            <Fade left>
                 <div>
                     <a href={"http://www.scoutible.com/"} target="_blank" rel="noopener noreferrer"
                        className="Link">

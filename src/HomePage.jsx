@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from "react"
+import React, {useEffect, useRef} from "react"
 
 import "./App.css"
 import Navigation from "./components/Navigation/Navigation"
@@ -27,12 +27,8 @@ const MenuWrap = (
 
 }
 
-const HomePage = (
-    {
-        side, children,
-    }
-) => {
-    const [open, setOpen] = useState(false)
+const HomePage = () => {
+
     const experienceRef = useRef()
     const projectsRef = useRef()
     const educationRef = useRef()
@@ -76,7 +72,6 @@ const HomePage = (
             "|  | \\__/ |___ /_          \n" +
             "                           \n"
         console.log(myName)
-        setOpen(false)
     }, [])
 
     const getMenu = () => {
@@ -107,7 +102,7 @@ const HomePage = (
 
         return (
             <MenuWrap wait={20} side={"right"}>
-                <Menu isOpen={open} id={"pushRotate"} pageWrapId={"page-wrap"}
+                <Menu id={"pushRotate"} pageWrapId={"page-wrap"}
                       outerContainerId={"outer-container"} right>
                     {items}
                 </Menu>
@@ -119,9 +114,9 @@ const HomePage = (
     return (
 
         <div className="App">
-
+            {getMenu()}
             <div id="outer-container">
-                {getMenu()}
+
                 <main id="page-wrap">
                     <header className="header">
                         <Navigation/>
@@ -135,26 +130,19 @@ const HomePage = (
 
             <Experience/>
 
-
             <Projects ref={projectsRef} mainPage={true}/>
 
-
             <SectionHeader ref={educationRef} title={"EDUCATION"}/>
-
 
             <Education/>
 
             <SectionHeader ref={coursesRef} title={"RELEVANT COURSES"}/>
 
-
             <RelevantCourses/>
-
 
             <SectionHeader ref={skillsRef} title={"SKILLS"}/>
 
-
             <Skills/>
-
 
             <Contact ref={contactRef}/>
 

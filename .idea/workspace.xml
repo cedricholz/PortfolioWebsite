@@ -7,7 +7,14 @@
     <bookmark url="file://$PROJECT_DIR$/src/components/Skills/skillsstyles.css" line="133" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b3d88d6-1e9b-47c3-8685-d9dc720c77f0" name="Default" comment="" />
+    <list default="true" id="9b3d88d6-1e9b-47c3-8685-d9dc720c77f0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience/Scoutible.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/Scoutible.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBackground/ProjectBackground.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBackground/ProjectBackground.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -270,7 +277,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
+    "settings.editor.selected.configurable": "settings.webpack",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -345,7 +352,7 @@
       <workItem from="1532819117314" duration="615000" />
       <workItem from="1534443577571" duration="644000" />
       <workItem from="1536126083632" duration="3443000" />
-      <workItem from="1682278579773" duration="13941000" />
+      <workItem from="1682278579773" duration="16283000" />
     </task>
     <task id="LOCAL-00001" summary="Gave it a dark theme and added more woosh">
       <created>1531107759990</created>
