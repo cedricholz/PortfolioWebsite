@@ -10,4 +10,7 @@ phases:
       - yarn build
   post_build:
     commands:
+      - echo Deploying to S3...
       - aws s3 sync build/ s3://cedricholz-portfolio-website --delete
+      - echo Creating CloudFront invalidation...
+      - aws cloudfront create-invalidation --distribution-id E1BRSHENG53GWI --paths "/*"
