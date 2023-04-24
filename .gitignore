@@ -8,6 +8,9 @@ yarn-error.log*
 build
 
 .idea
+.idea/workspace.xml
+**.idea
+**.idea/*
 
 # Runtime data
 pids
