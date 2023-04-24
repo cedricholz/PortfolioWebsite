@@ -1,16 +1,16 @@
 import React from "react"
 import "./Holdings.css"
 
-import ProjectBackground from "../../../components/ProjectBackground/ProjectBackground"
-import Projects from "../../../components/Projects/Projects"
-import GithubShare from "../../../components/GithubShare/GithubShare"
+import ProjectBackground from "../../ProjectBackground/ProjectBackground"
+import Projects from "../../Projects/Projects"
+import GithubShare from "../../GithubShare/GithubShare"
 import {ASSETS_BASE_URL} from "../../../constants"
 
 const Holdings = () => {
 
 
     return (
-        <div className="DashClass">
+        <div>
 
             <ProjectBackground projectName={"Holdings: An Automated Cryptocurrency Portfolio App"}
                                backgroundColor={"linear-gradient(to top right, #141E30, #243B55)"}

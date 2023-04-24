@@ -1,17 +1,17 @@
 import React from "react"
 import "./timecapsule.css"
 
-import ProjectBackground from "../../../components/ProjectBackground/ProjectBackground"
-import Projects from "../../../components/Projects/Projects"
-import GithubShare from "../../../components/GithubShare/GithubShare"
+import ProjectBackground from "../../ProjectBackground/ProjectBackground"
+import Projects from "../../Projects/Projects"
+import GithubShare from "../../GithubShare/GithubShare"
 import {ASSETS_BASE_URL} from "../../../constants"
 
 
-export default class TimeCapsule extends React.Component {
+const TimeCapsule = () => {
 
-    render() {
+
         return (
-            <div className="DashClass">
+            <div>
 
                 <ProjectBackground projectName={"Time Capsule"}
                                    backgroundColor={"linear-gradient(to top right, #FF512F, #F09819)"}
@@ -74,5 +74,7 @@ export default class TimeCapsule extends React.Component {
                 <Projects mainPage={false}/>
             </div>
         )
-    }
-};
+
+}
+
+export default TimeCapsule

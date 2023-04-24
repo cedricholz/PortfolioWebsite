@@ -1,7 +1,7 @@
 import React from "react"
 import "./projectsstyles.css"
 import ProjectTile from "./ProjectTile"
-import SectionHeader from "../../components/SectionHeader/SectionHeader"
+import SectionHeader from "../SectionHeader/SectionHeader"
 import Contact from "../Contact/Contact"
 
 
@@ -33,10 +33,6 @@ const Projects = React.forwardRef(({mainPage}, ref) => {
                              url={"/holdings"}
                              languages={["React-Native"]}/>
 
-                <ProjectTile imageName={"dashthumb.png"} projectName={"Dash Class"} url={"/dashclass"}
-                             languages={["React"]}/>
-
-
                 <ProjectTile imageName={"mcafeebot.png"}
                              projectName={"McAfee Twitter Cryptocurrency Bot"} url={"/mcafeebot"}
                              languages={["Python"]}/>
@@ -52,18 +48,8 @@ const Projects = React.forwardRef(({mainPage}, ref) => {
                              projectName={"Can Launching Mini Fridge"} url={"/canlauncher"}
                              languages={["Android", "Arduino"]}/>
 
-                <ProjectTile imageName={"bearmapsthumb.png"} projectName={"Bear Maps"}
-                             url={"/bearmaps"} languages={["Java"]}/>
-
                 <ProjectTile imageName={"cputhumb.png"} projectName={"MIPS Assembler, Linker, and CPU"}
                              url={"/cpu"} languages={["C", "MIPS"]}/>
-
-                <ProjectTile imageName={"towerdefense.png"} projectName={"Tower Defense Game"}
-                             url={"/towerdefense"} languages={["Python"]}/>
-
-                <ProjectTile imageName={"sqlframework.png"} projectName={"SQL Framework"}
-                             url={"/sqlframework"} languages={["Java"]}/>
-
 
             </div>
             {mainPage ? "" : <Contact/>}

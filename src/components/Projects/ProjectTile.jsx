@@ -4,11 +4,15 @@ import {Link} from "react-router-dom"
 import Fade from "react-reveal/Fade"
 import {ASSETS_BASE_URL} from "../../constants"
 
-export default class ProjectTile extends React.Component {
+const ProjectTile = (
+    {
+        languages,
+        url,
+        imageName,
+        projectName,
+    }
+) => {
 
-    render() {
-
-        const {languages} = this.props
 
 
         const languagesJsx = languages.map((language) => {
@@ -23,10 +27,10 @@ export default class ProjectTile extends React.Component {
         return (
             <div className="ProjectTile">
                 <Fade up>
-                    <Link to={this.props.url} className="Link">
-                        <img alt="" src={`${ASSETS_BASE_URL}${this.props.imageName}`} className="ProjectImage"/>
+                    <Link to={url} className="Link">
+                        <img alt="" src={`${ASSETS_BASE_URL}${imageName}`} className="ProjectImage"/>
                         <div className="ImageName">
-                            <div>{this.props.projectName}</div>
+                            <div>{projectName}</div>
                             <div className="Languages">
                                 {languagesJsx}
                             </div>
@@ -35,5 +39,6 @@ export default class ProjectTile extends React.Component {
                 </Fade>
             </div>
         )
-    }
+
 }
+export  default ProjectTile

@@ -11,7 +11,7 @@ const TooLow = (
 
         <div className="TooLow">
 
-            <Fade right>
+            <Fade left>
                 <div>
                     <a href={"http://toolowapp.com/"} target="_blank" rel="noopener noreferrer" className="Link">
                         <img alt="" src={`${ASSETS_BASE_URL}toolowlogo.png`} className="ToolowLogo"/>

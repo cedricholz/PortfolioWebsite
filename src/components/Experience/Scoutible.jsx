@@ -6,7 +6,7 @@ import {ASSETS_BASE_URL} from "../../constants"
 
 const Scoutible = (
     {
-        mainPage
+
     }
 ) => {
 
@@ -14,7 +14,7 @@ const Scoutible = (
     return (
 
         <div className="Scoutible">
-            <Fade left>
+            <Fade right>
                 <div>
                     <a href={"http://www.scoutible.com/"} target="_blank" rel="noopener noreferrer"
                        className="Link">
@@ -24,7 +24,7 @@ const Scoutible = (
 
                     <h1>Summer 2018</h1>
                     <h1>Full-Stack Engineer Intern</h1>
-                    <h1 className="React Pad">[React.js]</h1>
+                    <h1 className="React Pad">[React]</h1>
                     <h1 className="Python Pad">[Python]</h1>
                     <div>
                         <h1 className="Pad" style={{display: "inline-block"}}>[Node.js]</h1>

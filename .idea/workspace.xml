@@ -8,7 +8,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b3d88d6-1e9b-47c3-8685-d9dc720c77f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Experience/Scoutible.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.d8d6b03b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.d8d6b03b.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.45fde41b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.45fde41b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Education/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education/Education.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/Experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience/Scoutible.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/Dreamship.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience/TooLow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/TooLow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience/experiencestyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/experiencestyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GithubShare/GithubShare.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GithubShare/GithubShare.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectBackground/ProjectBackground.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectBackground/ProjectBackground.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/BearMaps/BearMaps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/BearMaps/bearmaps.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/CPU/CPU.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/CPU/CPU.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/CanLauncher/CanLauncher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/CanLauncher/CanLauncher.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/CryptoTrader/CryptoTrader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/CryptoTrader/CryptoTrader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/DashClass/DashClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/DashClass/dashclass.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/DistanceLights/DistanceLights.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/DistanceLights/DistanceLights.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/Holdings/Holdings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/Holdings/Holdings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/McAfee/McAfee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/McAfee/McAfee.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/Radii/Radii.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/Radii/Radii.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/SQLFramework/SQLFramework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/SQLFramework/sqlframework.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/TimeCapsule/TimeCapsule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectDirectory/TimeCapsule/TimeCapsule.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/TowerDefense/TowerDefense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDirectory/TowerDefense/towerdefense.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/ProjectTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectTile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RelevantCourses/RelevantCourses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RelevantCourses/RelevantCourses.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScrollToTop/ScrollToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollToTop/ScrollToTop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SectionHeader/SectionHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionHeader/SectionHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/BarGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/BarGraph.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Technologies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Technologies.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +318,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/cedri/Documents/PortfolioWebsite",
+    "last_opened_file_path": "C:/Users/cedri/Documents/PortfolioWebsite/src/components/Experience",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -278,11 +330,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cedri\Documents\PortfolioWebsite\src\components\Experience" />
       <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite\src\components\ProjectDirectory" />
       <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite\src\components\Contact" />
       <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite\src\components\Skills" />
       <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite\build" />
-      <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Cedric\Desktop\Code Projects\PortfolioWebsite\src\components\Skills" />
@@ -292,13 +344,27 @@
       <recent name="C:\Users\Cedric\Desktop\Code Projects\cedricholzcom\src\components\ProjectDirectory" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="App.js" working-dir="$PROJECT_DIR$/src">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="App.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/App.jsx" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.App.jsx" />
+      <item itemvalue="npm.start" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.App.jsx" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +399,7 @@
       <workItem from="1532819117314" duration="615000" />
       <workItem from="1534443577571" duration="644000" />
       <workItem from="1536126083632" duration="3443000" />
-      <workItem from="1682278579773" duration="7761000" />
+      <workItem from="1682278579773" duration="11811000" />
     </task>
     <task id="LOCAL-00001" summary="Gave it a dark theme and added more woosh">
       <created>1531107759990</created>

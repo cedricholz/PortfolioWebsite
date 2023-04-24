@@ -1,14 +1,16 @@
 import React from "react"
 import "./distancelights.css"
 
-import ProjectBackground from "../../../components/ProjectBackground/ProjectBackground"
-import Projects from "../../../components/Projects/Projects"
-import GithubShare from "../../../components/GithubShare/GithubShare"
+import ProjectBackground from "../../ProjectBackground/ProjectBackground"
+import Projects from "../../Projects/Projects"
+import GithubShare from "../../GithubShare/GithubShare"
 import {ASSETS_BASE_URL} from "../../../constants"
 
-export default class DistanceLights extends React.Component {
 
-    render() {
+const DistanceLights = (
+) => {
+
+
         const deviceWidth = window.innerWidth
         let vidWidth = "560"
         let vidHeight = "315"
@@ -86,5 +88,6 @@ export default class DistanceLights extends React.Component {
                 <Projects mainPage={false}/>
             </div>
         )
-    }
-};
+}
+
+export default DistanceLights

@@ -1,15 +1,15 @@
 import React from "react"
 import "./mcafee.css"
 
-import ProjectBackground from "../../../components/ProjectBackground/ProjectBackground"
-import Projects from "../../../components/Projects/Projects"
-import GithubShare from "../../../components/GithubShare/GithubShare"
+import ProjectBackground from "../../ProjectBackground/ProjectBackground"
+import Projects from "../../Projects/Projects"
+import GithubShare from "../../GithubShare/GithubShare"
 import {ASSETS_BASE_URL} from "../../../constants"
 
 const McAfee = () => {
 
     return (
-        <div className="DashClass">
+        <div>
 
             <ProjectBackground projectName={"McAfee Twitter Cryptocurrency Trading Bot"}
                                backgroundColor={"linear-gradient(to top right,#cb2d3e, #ef473a)"}

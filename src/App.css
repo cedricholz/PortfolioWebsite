@@ -31,7 +31,11 @@
 }
 
 .Python {
-    color: #366E9D;
+    color: #ffde57;
+    display: inline-block;
+}
+.AWS {
+    color: #FF9900;
     display: inline-block;
 }
 
