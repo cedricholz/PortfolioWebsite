@@ -36,22 +36,22 @@ const Scoutible = (
                 </div>
             </Fade>
 
-            <Fade up>
-                <div className="TextBlock">
+            {/*<Fade up>*/}
+            {/*    <div className="TextBlock">*/}
 
-                    <h3>I quickly became a competent Full-Stack engineer, taking on the responsibilities of a full
-                        time engineer within a month.
-                        I built python scripts to edit Google Cloud Datastore data, as well as created a fully local
-                        testing environment emulator, reducing the previous 3 minutes to test to moments along with
-                        allowing use of the debugger.
-                        A full end-to-end project I put together was a Nightmare.js server to take screenshots of
-                        dynamically stylized user data for sharing on Facebook and Twitter.
-                        I also
-                        fixed security holes to tighten users’ allowed data access, made app responsive and added
-                        many features that required front-end and backend changes.
-                    </h3>
-                </div>
-            </Fade>
+            {/*        <h3>I quickly became a competent Full-Stack engineer, taking on the responsibilities of a full*/}
+            {/*            time engineer within a month.*/}
+            {/*            I built python scripts to edit Google Cloud Datastore data, as well as created a fully local*/}
+            {/*            testing environment emulator, reducing the previous 3 minutes to test to moments along with*/}
+            {/*            allowing use of the debugger.*/}
+            {/*            A full end-to-end project I put together was a Nightmare.js server to take screenshots of*/}
+            {/*            dynamically stylized user data for sharing on Facebook and Twitter.*/}
+            {/*            I also*/}
+            {/*            fixed security holes to tighten users’ allowed data access, made app responsive and added*/}
+            {/*            many features that required front-end and backend changes.*/}
+            {/*        </h3>*/}
+            {/*    </div>*/}
+            {/*</Fade>*/}
 
         </div>
     )
