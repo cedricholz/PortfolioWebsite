@@ -13,6 +13,7 @@ import {BrowserRouter, Route} from "react-router-dom"
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 import McAfee from "./components/ProjectDirectory/McAfee/McAfee"
 import Radii from "./components/ProjectDirectory/Radii/Radii"
+import Aegir from "./components/ProjectDirectory/Aegir/Aegir"
 
 const Home = () => (
     <div>
@@ -40,6 +41,8 @@ const Project = (projectName) => {
             return <TimeCapsule/>
         case "Radii":
             return <Radii/>
+        case "Aegir":
+            return <Aegir/>
         default:
             return ""
     }
@@ -57,6 +60,7 @@ const App = () => {
                 <Route path="/distancelights" component={() => Project("DistanceLights")}/>
                 <Route path="/mcafeebot" component={() => Project("McAfee")}/>
                 <Route path="/timecapsule" component={() => Project("TimeCapsule")}/>
+                <Route path="/aegir" component={() => Project("Aegir")}/>
                 <Route path="/radii" component={() => Project("Radii")}/>
                 <Route path="/holdings" component={() => Project("Holdings")}/>
                 <Route path="/canlauncher" component={() => Project("CanLauncher")}/>

@@ -1,5 +1,5 @@
 import React from "react"
-import "./radii.css"
+// import "./radii.css"
 
 import ProjectBackground from "../../ProjectBackground/ProjectBackground"
 import Projects from "../../Projects/Projects"

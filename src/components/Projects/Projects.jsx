@@ -12,6 +12,10 @@ const Projects = React.forwardRef(({mainPage}, ref) => {
             <SectionHeader title={"PROJECTS"}/>
             <div className="Projects">
 
+                <ProjectTile imageName={"scanslight.png"}
+                             projectName={"Aegir"} url={"/aegir"}
+                             languages={["React-Native"]}/>
+
                 <ProjectTile imageName={"radii.PNG"}
                              projectName={"Radii"} url={"/radii"}
                              languages={["React-Native"]}/>
